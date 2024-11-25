@@ -1,0 +1,503 @@
+Read 28 queries.
+Using Bao: False
+Executing queries using PG optimizer for initial training
+x x 1732341698.0842085 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 13.285426378250122 PG
+x x 1732341699.968849 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8842945098876953 PG
+x x 1732341753.3859444 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.39994835853577 PG
+x x 1732341768.2388158 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.84951114654541 PG
+x x 1732341769.0071168 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.7680435180664062 PG
+x x 1732341771.5977829 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 2.590409517288208 PG
+x x 1732341773.4515464 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8533525466918945 PG
+x x 1732341779.6545777 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.199132204055786 PG
+x x 1732341785.3876264 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 5.732771396636963 PG
+x x 1732341787.2686436 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.880723237991333 PG
+x x 1732341802.0980697 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.825950860977173 PG
+x x 1732341803.964848 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.8664870262145996 PG
+x x 1732341805.8630323 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.897918701171875 PG
+x x 1732341807.7066674 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8432300090789795 PG
+x x 1732341810.293328 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 2.5862388610839844 PG
+x x 1732341812.3054318 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 2.0116894245147705 PG
+x x 1732341827.123645 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.814748048782349 PG
+x x 1732341840.2762196 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 13.152287244796753 PG
+x x 1732341842.135465 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.8590087890625 PG
+x x 1732341844.0342078 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8982808589935303 PG
+x x 1732341845.875495 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.8408823013305664 PG
+x x 1732341847.753988 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8780796527862549 PG
+x x 1732341849.5940046 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8396053314208984 PG
+x x 1732341851.4496112 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.8551898002624512 PG
+x x 1732341853.2936704 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.8436529636383057 PG
+x x 1732341855.1504698 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8563930988311768 PG
+x x 1732341861.4363532 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.281995058059692 PG
+x x 1732341867.723054 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.282753229141235 PG
+x x 1732341869.5578473 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8345139026641846 PG
+x x 1732341882.7263548 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 13.168271541595459 PG
+x x 1732341884.5852444 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.858480453491211 PG
+x x 1732341885.335139 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.7494423389434814 PG
+x x 1732341887.344363 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 2.008967638015747 PG
+x x 1732341889.1989765 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.854339599609375 PG
+x x 1732341891.9828389 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.779210329055786 PG
+x x 1732341894.006096 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 2.0229837894439697 PG
+x x 1732341895.8409827 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8346362113952637 PG
+x x 1732341908.823167 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.981886148452759 PG
+x x 1732341910.663043 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8394668102264404 PG
+x x 1732341923.831242 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 13.16775894165039 PG
+x x 1732341925.694281 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8626184463500977 PG
+x x 1732341927.5459397 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.851243019104004 PG
+x x 1732341942.353769 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.804370880126953 PG
+x x 1732342022.5484746 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 80.15955090522766 PG
+x x 1732342028.8149729 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.262484788894653 PG
+x x 1732342043.6257992 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.807325839996338 PG
+x x 1732342049.925354 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.295589447021484 PG
+x x 1732342103.2586732 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.31656289100647 PG
+x x 1732342116.2267108 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.967740058898926 PG
+x x 1732342119.0475636 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.8159608840942383 PG
+0 0 1732342121.1272788 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.0747528076171875
+0 1 1732342122.2365758 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1089866161346436
+0 2 1732342174.738373 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.48515486717224
+0 3 1732342175.8581367 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1194612979888916
+0 4 1732342177.6865156 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.828118085861206
+0 5 1732342189.9318538 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.244942426681519
+0 6 1732342191.0449803 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.1126835346221924
+0 7 1732342191.0576665 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.01222991943359375
+0 8 1732342192.172968 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.114903450012207
+0 9 1732342194.2519748 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.0738658905029297
+0 10 1732342195.3691792 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1169071197509766
+0 11 1732342207.6068308 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.237375259399414
+0 12 1732342208.8856487 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.278430700302124
+0 13 1732342210.0240104 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.1379127502441406
+0 14 1732342211.1451619 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1207034587860107
+0 15 1732342211.1561277 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.01052236557006836
+0 16 1732342225.1758215 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.016076564788818
+0 17 1732342226.3568072 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1805908679962158
+0 18 1732342305.5567694 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.16498494148254
+0 19 1732342358.0788727 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.50616455078125
+0 20 1732342359.1939435 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1147761344909668
+0 21 1732342360.3099165 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1157078742980957
+0 22 1732342361.4271553 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.116828441619873
+0 23 1732342440.6565576 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.19532561302185
+0 24 1732342442.4904594 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.833599328994751
+0 25 1732342447.4733891 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.982678174972534
+0 26 1732342448.5947754 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.120934009552002
+0 27 1732342449.7285888 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1333434581756592
+0 28 1732342502.3260057 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.58138418197632
+0 29 1732342516.4065554 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.076961517333984
+0 30 1732342517.6909385 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.284095287322998
+0 31 1732342570.1667755 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.45922541618347
+0 32 1732342582.578195 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.410780429840088
+0 33 1732342583.6880834 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.109649419784546
+0 34 1732342588.669825 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.981277704238892
+0 35 1732342602.7502785 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.076436758041382
+0 36 1732342603.8674958 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1169178485870361
+0 37 1732342605.0060825 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1382508277893066
+0 38 1732342610.423733 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.413536787033081
+0 39 1732342611.5345223 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1104962825775146
+0 40 1732342612.643055 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1081249713897705
+0 41 1732342624.8806813 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.237152338027954
+0 42 1732342625.996259 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1150963306427002
+0 43 1732342630.9749703 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.9782514572143555
+0 44 1732342632.0940776 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1186268329620361
+0 45 1732342634.1756592 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.076409101486206
+0 46 1732342635.2909148 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1149516105651855
+0 47 1732342636.429505 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.138254165649414
+0 48 1732342637.5462518 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1162912845611572
+0 49 1732342638.659077 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.112386703491211
+1 0 1732342639.8223417 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1626672744750977
+1 1 1732342639.832976 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.010213851928710938
+1 2 1732342640.970871 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.1374797821044922
+1 3 1732342642.250138 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2788255214691162
+1 4 1732342694.9787493 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.71254634857178
+1 5 1732342707.208572 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.229530572891235
+1 6 1732342708.3234034 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1145951747894287
+1 7 1732342709.4522047 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.128340482711792
+1 8 1732342710.5912366 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1386001110076904
+1 9 1732342711.7060225 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.114349603652954
+1 10 1732342712.8217616 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1152842044830322
+1 11 1732342765.3290365 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.49120807647705
+1 12 1732342766.4732096 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1438829898834229
+1 13 1732342767.5793262 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1058847904205322
+1 14 1732342768.6951363 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.114802360534668
+1 15 1732342769.8081486 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.112546443939209
+1 16 1732342849.4635205 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.61999797821045
+1 17 1732342861.7006943 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.236869096755981
+1 18 1732342873.9409833 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.240031719207764
+1 19 1732342875.0551662 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.113691806793213
+1 20 1732342875.0671768 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011596441268920898
+1 21 1732342876.3454854 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.277916431427002
+1 22 1732342876.3578568 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011960029602050781
+1 23 1732342877.5031722 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1449053287506104
+1 24 1732342878.663098 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.159454584121704
+1 25 1732342879.784362 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.1208269596099854
+1 26 1732342880.9469843 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1621246337890625
+1 27 1732342882.0685713 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1211578845977783
+1 28 1732342883.181612 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1125257015228271
+1 29 1732342884.3041162 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1220424175262451
+1 30 1732342963.7013986 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.36155486106873
+1 31 1732342964.810021 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1083054542541504
+1 32 1732342965.9245665 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1141777038574219
+1 33 1732342967.0403671 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1152746677398682
+1 34 1732342972.5265338 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.481505393981934
+1 35 1732342973.9028192 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.3759198188781738
+1 36 1732342975.0130064 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1098415851593018
+1 37 1732342975.0245204 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011104822158813477
+1 38 1732342975.0353568 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.01053476333618164
+1 39 1732342976.1429405 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.107252597808838
+1 40 1732342977.5248315 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.381418228149414
+1 41 1732342978.8006601 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2753326892852783
+1 42 1732343031.3972404 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.57978343963623
+1 43 1732343032.506567 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.109029769897461
+1 44 1732343037.49365 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.986767530441284
+1 45 1732343038.6022167 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1081717014312744
+1 46 1732343039.8869767 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2843043804168701
+1 47 1732343039.897634 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.01026010513305664
+1 48 1732343040.9777956 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.0797574520111084
+1 49 1732343119.9571743 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 78.9439857006073
+2 0 1732343121.0706391 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.113154411315918
+2 1 1732343122.9030492 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8321595191955566
+2 2 1732343124.0344033 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.131103754043579
+2 3 1732343125.177769 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.142902135848999
+2 4 1732343126.2837353 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.105515480041504
+2 5 1732343140.4206588 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.133312702178955
+2 6 1732343141.5372539 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.1163220405578613
+2 7 1732343154.0507445 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.513214349746704
+2 8 1732343168.076794 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.022440195083618
+2 9 1732343182.1369572 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.056626558303833
+2 10 1732343183.2435493 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1062781810760498
+2 11 1732343195.484276 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.240456342697144
+2 12 1732343209.5178206 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.030029773712158
+2 13 1732343210.6306322 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1125316619873047
+2 14 1732343211.740785 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1099002361297607
+2 15 1732343212.857272 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1161482334136963
+2 16 1732343226.9044707 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.043670892715454
+2 17 1732343228.7363534 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.831599235534668
+2 18 1732343229.8440983 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1075031757354736
+2 19 1732343230.9572387 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1127543449401855
+2 20 1732343232.0731804 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.115689754486084
+2 21 1732343233.35848 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2848854064941406
+2 22 1732343234.7362778 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.377563714981079
+2 23 1732343234.7484827 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011980056762695312
+2 24 1732343235.8677895 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1188936233520508
+2 25 1732343236.9674308 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.0994024276733398
+2 26 1732343242.3742504 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.402929782867432
+2 27 1732343243.4992533 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.124720811843872
+2 28 1732343248.4852564 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.985761880874634
+2 29 1732343249.861636 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.3755452632904053
+2 30 1732343249.8737175 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.011855363845825195
+2 31 1732343251.701821 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8276710510253906
+2 32 1732343252.8445158 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1422333717346191
+2 33 1732343258.3119028 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.4634528160095215
+2 34 1732343263.292254 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.9800591468811035
+2 35 1732343264.4102538 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.1177473068237305
+2 36 1732343265.5212758 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1106116771697998
+2 37 1732343279.5682828 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.043574094772339
+2 38 1732343280.6726394 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1040682792663574
+2 39 1732343281.8060234 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1331267356872559
+2 40 1732343286.7863452 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.979984283447266
+2 41 1732343339.1309552 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.32817506790161
+2 42 1732343353.1512563 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.016797304153442
+2 43 1732343354.262784 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1112430095672607
+2 44 1732343355.3910258 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.127988576889038
+2 45 1732343356.503019 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1117606163024902
+2 46 1732343357.7797868 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.276498794555664
+2 47 1732343358.8953774 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1151092052459717
+2 48 1732343360.0107052 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1148316860198975
+2 49 1732343361.1291828 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1180369853973389
+3 0 1732343362.243996 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.114342212677002
+3 1 1732343363.360851 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1164236068725586
+3 2 1732343364.4762304 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.114865779876709
+3 3 1732343365.5949576 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.1182799339294434
+3 4 1732343367.002375 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.406968116760254
+3 5 1732343368.1107793 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.108137607574463
+3 6 1732343373.09467 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.983630895614624
+3 7 1732343374.2101986 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1152713298797607
+3 8 1732343376.2570217 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.0419459342956543
+3 9 1732343377.373336 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1160240173339844
+3 10 1732343429.8156521 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.42583417892456
+3 11 1732343429.8257473 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.009828805923461914
+3 12 1732343430.9555807 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.129629373550415
+3 13 1732343435.9382915 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.982471942901611
+3 14 1732343437.0624683 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1238749027252197
+3 15 1732343438.1788592 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1161067485809326
+3 16 1732343439.4575956 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2784903049468994
+3 17 1732343439.4696875 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.01180124282836914
+3 18 1732343440.582866 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.1127557754516602
+3 19 1732343519.8823743 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.26383352279663
+3 20 1732343520.9986863 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1159892082214355
+3 21 1732343533.399218 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.400201559066772
+3 22 1732343534.6791034 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2794451713562012
+3 23 1732343534.691085 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.011571168899536133
+3 24 1732343535.8034647 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1119661331176758
+3 25 1732343548.2222679 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.41832184791565
+3 26 1732343549.368393 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1457016468048096
+3 27 1732343550.4837902 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.114962100982666
+3 28 1732343551.599334 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.115086317062378
+3 29 1732343552.7131786 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1133918762207031
+3 30 1732343558.1791763 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.4619855880737305
+3 31 1732343559.284381 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1049225330352783
+3 32 1732343571.7088797 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.424225091934204
+3 33 1732343573.5361052 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8267521858215332
+3 34 1732343587.6480827 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.108515501022339
+3 35 1732343588.7544065 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.106034755706787
+3 36 1732343589.8670175 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1123011112213135
+3 37 1732343603.960014 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.089325666427612
+3 38 1732343616.3870835 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.426757097244263
+3 39 1732343628.622476 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.23513126373291
+3 40 1732343633.6149564 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.992048025131226
+3 41 1732343646.0350049 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.41955852508545
+3 42 1732343647.1800275 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1445903778076172
+3 43 1732343648.3004127 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1199467182159424
+3 44 1732343649.4183722 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1175029277801514
+3 45 1732343649.430182 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.011388301849365234
+3 46 1732343663.4290507 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 13.995294570922852
+3 47 1732343668.4055564 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.976203680038452
+3 48 1732343670.2496963 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8437538146972656
+3 49 1732343749.444791 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.15939950942993
+4 0 1732343828.8337252 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.35281825065613
+4 1 1732343828.84415 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.010152339935302734
+4 2 1732343834.3498132 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.501757383346558
+4 3 1732343835.4784646 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1283693313598633
+4 4 1732343836.5969958 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1182801723480225
+4 5 1732343837.7120798 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1145713329315186
+4 6 1732343843.2070365 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.490844488143921
+4 7 1732343844.3106346 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1033141613006592
+4 8 1732343896.6478584 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.320645332336426
+4 9 1732343897.7608943 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1127376556396484
+4 10 1732343898.8804417 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1191368103027344
+4 11 1732343899.9907022 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1098082065582275
+4 12 1732343902.0719545 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.0761828422546387
+4 13 1732343903.1814723 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.109236478805542
+4 14 1732343904.3000772 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1182587146759033
+4 15 1732343905.431991 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.1314899921417236
+4 16 1732343917.6769202 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.244468450546265
+4 17 1732343918.79242 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1150078773498535
+4 18 1732343920.6293075 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.836430311203003
+4 19 1732343921.7880237 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1582472324371338
+4 20 1732343922.9080637 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1195712089538574
+4 21 1732344002.3808951 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.4383454322815
+4 22 1732344004.2162757 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.83506441116333
+4 23 1732344005.3348284 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1183040142059326
+4 24 1732344006.4495075 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1142055988311768
+4 25 1732344007.5585892 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1085968017578125
+4 26 1732344013.0375896 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.4750425815582275
+4 27 1732344014.3137472 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2758753299713135
+4 28 1732344067.025193 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.6955771446228
+4 29 1732344079.431372 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.405863761901855
+4 30 1732344079.4411023 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.009506940841674805
+4 31 1732344080.5301378 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.0888125896453857
+4 32 1732344092.7644432 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.233840465545654
+4 33 1732344145.267141 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.48651909828186
+4 34 1732344146.6453023 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.377868413925171
+4 35 1732344147.7622075 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1165387630462646
+4 36 1732344148.8794963 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1168169975280762
+4 37 1732344154.3253446 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.441847324371338
+4 38 1732344159.3088088 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.983180284500122
+4 39 1732344211.9871821 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.66187334060669
+4 40 1732344213.1472075 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.159625768661499
+4 41 1732344213.1593451 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011736631393432617
+4 42 1732344225.3870823 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.227314949035645
+4 43 1732344278.034587 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.63086938858032
+4 44 1732344278.0447059 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.00982975959777832
+4 45 1732344279.3256922 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2807633876800537
+4 46 1732344284.3048048 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.9787678718566895
+4 47 1732344285.4690669 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.163722038269043
+4 48 1732344291.0734303 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.5999109745025635
+4 49 1732344292.194987 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1212451457977295
+5 0 1732344293.3021712 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1068603992462158
+5 1 1732344294.5862982 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2837142944335938
+5 2 1732344295.7030396 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1163029670715332
+5 3 1732344308.135873 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.43237590789795
+5 4 1732344309.2500074 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.1136932373046875
+5 5 1732344310.3680522 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.117593765258789
+5 6 1732344389.636649 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.23343992233276
+5 7 1732344390.7500563 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.113083839416504
+5 8 1732344391.861306 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1109347343444824
+5 9 1732344392.9741204 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1123642921447754
+5 10 1732344394.0869296 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1123294830322266
+5 11 1732344395.2012043 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1138041019439697
+5 12 1732344409.2757573 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.07089352607727
+5 13 1732344414.7481744 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.468643665313721
+5 14 1732344414.7584202 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.009972572326660156
+5 15 1732344415.8729346 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.114292860031128
+5 16 1732344420.8495321 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.976269483566284
+5 17 1732344433.0949311 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.244961977005005
+5 18 1732344434.2082691 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.1129019260406494
+5 19 1732344435.328503 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1197800636291504
+5 20 1732344436.4397469 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.110795259475708
+5 21 1732344437.5581775 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.117973804473877
+5 22 1732344438.674891 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1162621974945068
+5 23 1732344439.7905452 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.115208387374878
+5 24 1732344440.9522831 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1611883640289307
+5 25 1732344440.9644575 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.01175546646118164
+5 26 1732344442.0820067 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.117154598236084
+5 27 1732344443.1969643 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1145100593566895
+5 28 1732344444.3209498 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1234862804412842
+5 29 1732344445.4299748 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1085553169250488
+5 30 1732344446.5489428 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1184616088867188
+5 31 1732344499.309459 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.74359846115112
+5 32 1732344500.4219847 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1122121810913086
+5 33 1732344501.537836 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1155049800872803
+5 34 1732344502.6480517 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1098289489746094
+5 35 1732344503.7848606 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1363646984100342
+5 36 1732344517.8632576 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.074854135513306
+5 37 1732344518.981848 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1182851791381836
+5 38 1732344520.1097379 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1276071071624756
+5 39 1732344599.2853358 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.14154720306396
+5 40 1732344600.3979232 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1122567653656006
+5 41 1732344614.4928577 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.09156608581543
+5 42 1732344615.6548212 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1616191864013672
+5 43 1732344616.763515 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.108255386352539
+5 44 1732344617.8997002 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.1357226371765137
+5 45 1732344619.0193105 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1191668510437012
+5 46 1732344620.134706 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.114927053451538
+5 47 1732344672.5359619 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.38527750968933
+5 48 1732344684.767172 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.230921745300293
+5 49 1732344689.7476761 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.9802775382995605
+6 0 1732344690.8638115 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1156435012817383
+6 1 1732344692.1492774 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.285008192062378
+6 2 1732344693.2656882 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1159794330596924
+6 3 1732344694.3803632 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1142237186431885
+6 4 1732344695.4951003 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1142821311950684
+6 5 1732344696.607108 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.1115567684173584
+6 6 1732344697.7211375 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1135797500610352
+6 7 1732344750.3211925 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.5824134349823
+6 8 1732344751.4268992 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1053833961486816
+6 9 1732344752.5618901 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1347124576568604
+6 10 1732344752.573622 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.011314153671264648
+6 11 1732344832.2505367 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.64141774177551
+6 12 1732344844.6690667 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.41822075843811
+6 13 1732344845.8372505 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.167937994003296
+6 14 1732344847.8979335 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.055802583694458
+6 15 1732344860.3190417 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.420814752578735
+6 16 1732344912.7161925 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.380634784698486
+6 17 1732344913.8651273 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.148634433746338
+6 18 1732344915.019816 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1544466018676758
+6 19 1732344916.1351573 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1150989532470703
+6 20 1732344917.41033 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.274930715560913
+6 21 1732344917.4200816 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.009546756744384766
+6 22 1732344917.4292452 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.008979320526123047
+6 23 1732344919.256666 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8272531032562256
+6 24 1732344921.30544 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.043858289718628
+6 25 1732344922.4202356 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.114518642425537
+6 26 1732344924.2469923 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8264949321746826
+6 27 1732344925.370876 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.1236469745635986
+6 28 1732345004.5757053 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.16943907737732
+6 29 1732345005.6924348 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1159651279449463
+6 30 1732345005.7022238 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.009563207626342773
+6 31 1732345084.9991665 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.26137781143188
+6 32 1732345164.0947177 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.06114315986633
+6 33 1732345169.0806396 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.985599756240845
+6 34 1732345174.0607116 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.979828357696533
+6 35 1732345253.3020914 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.20594692230225
+6 36 1732345254.4136314 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1112391948699951
+6 37 1732345259.400431 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.986537218093872
+6 38 1732345260.5153885 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1145472526550293
+6 39 1732345262.3514352 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8355605602264404
+6 40 1732345263.462406 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1105387210845947
+6 41 1732345275.7132666 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.250373840332031
+6 42 1732345355.0657918 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.31682753562927
+6 43 1732345356.3474653 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.281360387802124
+6 44 1732345357.5063264 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1585652828216553
+6 45 1732345436.9059956 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.36389589309692
+6 46 1732345438.0362759 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1299786567687988
+6 47 1732345450.4658344 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.429288625717163
+6 48 1732345452.3006616 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8343737125396729
+6 49 1732345453.682387 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.3812305927276611
+7 0 1732345454.8215668 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1387205123901367
+7 1 1732345455.9275532 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1055407524108887
+7 2 1732345457.3111708 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.3831517696380615
+7 3 1732345458.4216835 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.1100633144378662
+7 4 1732345459.5414438 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1192822456359863
+7 5 1732345460.6523912 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.1105058193206787
+7 6 1732345466.2655225 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.609021425247192
+7 7 1732345467.4009633 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1351518630981445
+7 8 1732345479.6577 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.25646686553955
+7 9 1732345480.7743955 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.1162657737731934
+7 10 1732345481.897421 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1225640773773193
+7 11 1732345481.909288 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011464118957519531
+7 12 1732345483.737167 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8274712562561035
+7 13 1732345497.832927 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.092297077178955
+7 14 1732345498.947282 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1140599250793457
+7 15 1732345500.1057289 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.1581521034240723
+7 16 1732345514.2414553 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.132230758666992
+7 17 1732345515.6223812 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.3806381225585938
+7 18 1732345516.7417715 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1191251277923584
+7 19 1732345522.247522 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.501819372177124
+7 20 1732345527.2413156 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.993504762649536
+7 21 1732345539.5224922 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.280754327774048
+7 22 1732345540.6390207 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1160964965820312
+7 23 1732345541.7745032 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.1350345611572266
+7 24 1732345543.1587806 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.383840560913086
+7 25 1732345557.2258048 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.063497543334961
+7 26 1732345559.0669196 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8408026695251465
+7 27 1732345560.2253022 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.158071517944336
+7 28 1732345560.2377841 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.01209115982055664
+7 29 1732345560.2494044 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011268854141235352
+7 30 1732345565.8013334 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.548053741455078
+7 31 1732345570.7804801 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.978858470916748
+7 32 1732345571.8996866 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.118854284286499
+7 33 1732345573.019081 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1189401149749756
+7 34 1732345574.1625082 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1429774761199951
+7 35 1732345575.2789392 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1160030364990234
+7 36 1732345589.3731725 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.090759754180908
+7 37 1732345590.4887166 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1152610778808594
+7 38 1732345591.6186454 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.1296031475067139
+7 39 1732345592.735723 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.1166398525238037
+7 40 1732345594.5710182 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/28_complex.sql 1.8348424434661865
+7 41 1732345595.6853158 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.1138665676116943
+7 42 1732345608.1127615 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.426988124847412
+7 43 1732345609.2294438 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.1162006855010986
+7 44 1732345610.3476257 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.1177494525909424
+7 45 1732345622.5801756 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.232076168060303
+7 46 1732345622.5917652 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.011219024658203125
+7 47 1732345623.7327306 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.140561819076538
+7 48 1732345624.8490086 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1157968044281006
+7 49 1732345626.1346607 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2851736545562744
+8 0 1732345627.247493 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.112293004989624
+8 1 1732345627.2595356 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.011640071868896484
+8 2 1732345628.6361172 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.3762025833129883
+8 3 1732345681.141163 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.48904824256897
+8 4 1732345695.2087297 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.064183950424194
+8 5 1732345707.4470763 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.238055944442749
+8 6 1732345707.4568784 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.009599924087524414
+8 7 1732345708.5967126 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/24_complex.sql 1.1396243572235107
+8 8 1732345720.8326793 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/27_complex.sql 12.2354576587677
+8 9 1732345773.3297317 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.480923652648926
+8 10 1732345778.9085348 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 5.575001001358032
+8 11 1732345858.1860979 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.24210619926453
+8 12 1732345910.703921 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 52.50181841850281
+8 13 1732345990.0168705 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 79.27748131752014
+8 14 1732345991.2944062 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.277085304260254
+8 15 1732345992.3992767 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.1045260429382324
+8 16 1732346006.492615 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.089759588241577
+8 17 1732346007.6300519 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.1371269226074219
+8 18 1732346008.7675855 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.1371667385101318
+8 19 1732346009.8811529 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.1131782531738281
+8 20 1732346014.8650012 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.9833903312683105
+8 21 1732346016.144064 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2786026000976562
+8 22 1732346021.131691 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.9871814250946045
+8 23 1732346022.2447476 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.1126139163970947
+8 24 1732346027.2297723 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.984550952911377
+8 25 1732346028.344858 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.114654541015625
+8 26 1732346040.7603536 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.415011405944824
+8 27 1732346041.8974402 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.1366500854492188
+8 28 1732346043.0154123 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1175413131713867
+8 29 1732346043.0278509 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.012026786804199219
+8 30 1732346045.1095984 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.0767037868499756
+8 31 1732346046.2696707 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.159651517868042
+8 32 1732346047.3905602 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.1204299926757812
+8 33 1732346047.402871 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.011901378631591797
+8 34 1732346048.5192184 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.1159539222717285
+8 35 1732346049.6361654 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.116497278213501
+8 36 1732346054.6182482 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.981634140014648
+8 37 1732346054.6305826 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.011940956115722656
+8 38 1732346055.9098496 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/25_complex.sql 1.2788481712341309
+8 39 1732346068.3308556 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/26_complex.sql 12.420552968978882
+8 40 1732346081.2348936 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 12.898446798324585
+8 41 1732346093.966285 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 12.726729154586792
+8 42 1732346094.954768 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 0.9881241321563721
+8 43 1732346095.9713213 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.0162677764892578
+8 44 1732346096.9453022 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 0.973459005355835
+8 45 1732346097.9406848 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 0.9948821067810059
+8 46 1732346102.8078089 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 4.866569519042969
+8 47 1732346103.7832868 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 0.9749884605407715
+8 48 1732346105.004878 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 1.2210841178894043
+8 49 1732346105.9751775 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 0.9697637557983398

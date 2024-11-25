@@ -1,0 +1,617 @@
+Read 23 queries.
+Using Bao: True
+Executing queries using PG optimizer for initial training
+x x 1732274234.913355 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.885671615600586 PG
+x x 1732274236.7950933 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8812665939331055 PG
+x x 1732274251.7443 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.944958686828613 PG
+x x 1732274253.5932956 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8487136363983154 PG
+x x 1732274254.3401625 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.7466542720794678 PG
+x x 1732274255.0813806 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.7408514022827148 PG
+x x 1732274256.940216 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.8583765029907227 PG
+x x 1732274258.790714 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.850052833557129 PG
+x x 1732274260.635985 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8448126316070557 PG
+x x 1732274262.5038242 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8673341274261475 PG
+x x 1732274264.338131 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8338878154754639 PG
+x x 1732274270.072547 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 5.733971357345581 PG
+x x 1732274271.9557168 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8826653957366943 PG
+x x 1732274273.8268237 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.870687484741211 PG
+x x 1732274275.699057 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8717951774597168 PG
+x x 1732274277.5800807 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.880584716796875 PG
+x x 1732274279.4306445 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8501348495483398 PG
+x x 1732274281.560625 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.1295266151428223 PG
+x x 1732274283.4140806 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8529558181762695 PG
+x x 1732274285.3078141 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8932385444641113 PG
+x x 1732274287.1577275 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8494970798492432 PG
+x x 1732274287.9086037 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.7504699230194092 PG
+x x 1732274341.6746428 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.750000953674316 PG
+x x 1732274343.535565 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.8606162071228027 PG
+x x 1732274345.3871531 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.85127592086792 PG
+Initial input channels: 12
+Epoch 0 training loss: 0.012711312958163034
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+0 0 1732274405.1352031 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.164576292037964
+0 1 1732274411.4565127 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.317579030990601
+0 2 1732274417.7555084 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.295196056365967
+0 3 1732274419.6172292 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8614428043365479
+0 4 1732274421.7352183 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.117502212524414
+0 5 1732274423.582072 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8464436531066895
+0 6 1732274424.3387856 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.756317138671875
+0 7 1732274426.21785 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.8785488605499268
+0 8 1732274428.0811298 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.8628337383270264
+0 9 1732274508.329884 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 80.21938228607178
+0 10 1732274510.2027252 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.8725204467773438
+0 11 1732274512.0377216 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.834665060043335
+0 12 1732274513.9185534 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8805747032165527
+0 13 1732274515.7818015 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8627967834472656
+0 14 1732274517.903188 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.120915174484253
+0 15 1732274518.6576204 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.754014253616333
+0 16 1732274520.8454282 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.187335252761841
+0 17 1732274523.286515 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.4405577182769775
+0 18 1732274538.9359353 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.609125137329102
+0 19 1732274541.3697557 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.433098077774048
+0 20 1732274543.8101683 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.440053939819336
+0 21 1732274550.7753127 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.960864543914795
+0 22 1732274566.3468523 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.567866086959839
+0 23 1732274568.8148625 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.4676687717437744
+0 24 1732274651.3237102 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 82.47648692131042
+Initial input channels: 12
+Epoch 0 training loss: 0.03736580541070517
+Stopped training from convergence condition at epoch 11
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+1 0 1732274741.4952002 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 82.85859775543213
+1 1 1732274743.9460895 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.450535774230957
+1 2 1732274759.508213 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.558483839035034
+1 3 1732274761.94732 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.4388136863708496
+1 4 1732274764.4173226 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.469747543334961
+1 5 1732274766.8872814 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.4695262908935547
+1 6 1732274769.3305469 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.4427578449249268
+1 7 1732274770.6215456 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2905843257904053
+1 8 1732274772.8778872 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.255824327468872
+1 9 1732274854.3115554 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 81.40108251571655
+1 10 1732274856.7519689 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.440023899078369
+1 11 1732274859.2238338 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.4716129302978516
+1 12 1732274861.691381 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.467128276824951
+1 13 1732274862.9835143 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2916920185089111
+1 14 1732274865.2183344 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2339253425598145
+1 15 1732274867.4306493 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.2116198539733887
+1 16 1732274869.8694098 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.4382739067077637
+1 17 1732274872.363122 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.4930708408355713
+1 18 1732274927.6074631 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 55.2262704372406
+1 19 1732274943.2291043 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.617393255233765
+1 20 1732274945.6666152 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.4371304512023926
+1 21 1732274948.1113372 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.444471836090088
+1 22 1732274950.540123 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.4284307956695557
+1 23 1732275005.497545 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 54.93947434425354
+1 24 1732275006.7973776 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.298802137374878
+Initial input channels: 12
+Epoch 0 training loss: 0.018086622217006788
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+2 0 1732275016.2099698 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.439091920852661
+2 1 1732275018.660531 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.4502789974212646
+2 2 1732275022.087539 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.4215543270111084
+2 3 1732275037.7224884 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.631157159805298
+2 4 1732275040.1571245 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.4343156814575195
+2 5 1732275042.6234136 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.4659719467163086
+2 6 1732275058.2242496 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.59691071510315
+2 7 1732275060.9447217 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.720134973526001
+2 8 1732275063.3815408 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.436436414718628
+2 9 1732275065.8277104 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.445824146270752
+2 10 1732275068.2835238 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.455350637435913
+2 11 1732275070.7406225 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.456629753112793
+2 12 1732275077.067512 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.3264243602752686
+2 13 1732275083.9397938 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.86782431602478
+2 14 1732275086.3855588 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.4454336166381836
+2 15 1732275093.325886 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.936023235321045
+2 16 1732275095.7937112 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.4675142765045166
+2 17 1732275098.2445285 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 2.4505581855773926
+2 18 1732275100.6808286 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.435863733291626
+2 19 1732275103.129569 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.4393203258514404
+2 20 1732275185.7717159 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 82.6082022190094
+2 21 1732275188.2157383 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.4436821937561035
+2 22 1732275190.6811666 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.464901924133301
+2 23 1732275193.1346664 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.452983856201172
+2 24 1732275195.5819008 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.446723222732544
+Initial input channels: 12
+Epoch 0 training loss: 0.023366207113010913
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+3 0 1732275205.2497435 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.4950742721557617
+3 1 1732275206.5419815 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2918896675109863
+3 2 1732275207.8629756 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.3204538822174072
+3 3 1732275210.2714102 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.4077773094177246
+3 4 1732275224.2959006 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.020407676696777
+3 5 1732275226.5635264 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.2667038440704346
+3 6 1732275233.3358204 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.768214702606201
+3 7 1732275235.5797431 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.2433111667633057
+3 8 1732275238.7868829 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.2019951343536377
+3 9 1732275241.0331085 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.2459099292755127
+3 10 1732275243.2826037 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.249134063720703
+3 11 1732275257.3103957 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.024100065231323
+3 12 1732275263.4363725 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.1256630420684814
+3 13 1732275265.7161531 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.279480218887329
+3 14 1732275267.9710717 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.2544243335723877
+3 15 1732275270.2243776 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.2528438568115234
+3 16 1732275284.269716 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.04164433479309
+3 17 1732275286.540085 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.270043134689331
+3 18 1732275288.8152184 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.2747840881347656
+3 19 1732275291.0639095 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.248211145401001
+3 20 1732275293.3218656 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.2574546337127686
+3 21 1732275295.5899773 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.267659902572632
+3 22 1732275297.848655 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.2582178115844727
+3 23 1732275300.108849 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.2596969604492188
+3 24 1732275302.4029417 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.293633222579956
+Initial input channels: 12
+Epoch 0 training loss: 0.05148675824245808
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+4 0 1732275358.7305822 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 48.73361945152283
+4 1 1732275361.0270257 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.2960851192474365
+4 2 1732275363.2776327 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.2501718997955322
+4 3 1732275365.5299218 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.252017021179199
+4 4 1732275367.7822726 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.251896858215332
+4 5 1732275416.9940915 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 49.19520664215088
+4 6 1732275419.2656558 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.2712290287017822
+4 7 1732275421.5205657 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.2545981407165527
+4 8 1732275423.7788734 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.2578694820404053
+4 9 1732275426.030063 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.25093674659729
+4 10 1732275432.1627457 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.132200002670288
+4 11 1732275434.4046721 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.2414710521698
+4 12 1732275436.6697977 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.264806032180786
+4 13 1732275438.9271142 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.2568695545196533
+4 14 1732275445.576372 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.645116090774536
+4 15 1732275448.7838206 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.202418804168701
+4 16 1732275451.0514846 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.267366647720337
+4 17 1732275465.1096845 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.054552793502808
+4 18 1732275467.355996 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.2452681064605713
+4 19 1732275469.6038826 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.247556447982788
+4 20 1732275471.858285 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.2539782524108887
+4 21 1732275474.1533885 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.2946431636810303
+4 22 1732275475.4356961 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2818772792816162
+4 23 1732275477.5909753 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.154798984527588
+4 24 1732275531.2601037 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.64669227600098
+Initial input channels: 12
+Epoch 0 training loss: 0.1081371068333586
+Stopped training from convergence condition at epoch 11
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+5 0 1732275541.6250107 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.865239143371582
+5 1 1732275543.4952953 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8700439929962158
+5 2 1732275546.3216016 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.821357488632202
+5 3 1732275552.0397441 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 5.717852592468262
+5 4 1732275558.3380685 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.294454097747803
+5 5 1732275560.1909323 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.852574348449707
+5 6 1732275613.7421503 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.53536629676819
+5 7 1732275615.856171 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.113703966140747
+5 8 1732275617.7005658 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8440523147583008
+5 9 1732275619.540282 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8388254642486572
+5 10 1732275621.3729036 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.8321309089660645
+5 11 1732275623.2329206 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8595499992370605
+5 12 1732275625.0694985 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8361318111419678
+5 13 1732275626.9019601 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.8320398330688477
+5 14 1732275628.742247 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8398451805114746
+5 15 1732275630.5716958 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.8290042877197266
+5 16 1732275632.4157948 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8436534404754639
+5 17 1732275633.156281 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.7400429248809814
+5 18 1732275635.3666089 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.2098023891448975
+5 19 1732275637.601945 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.234647750854492
+5 20 1732275639.46101 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.8585622310638428
+5 21 1732275641.59741 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.1358745098114014
+5 22 1732275644.4080193 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.805441379547119
+5 23 1732275646.2554407 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8470520973205566
+5 24 1732275648.1033638 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8476788997650146
+Initial input channels: 12
+Epoch 0 training loss: 0.023298326140575226
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+6 0 1732275658.0085897 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.8570055961608887
+6 1 1732275664.364498 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.351761341094971
+6 2 1732275666.2061803 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8413708209991455
+6 3 1732275668.0485628 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8420724868774414
+6 4 1732275670.8840327 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.830620527267456
+6 5 1732275671.620838 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.7365400791168213
+6 6 1732275672.643974 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.0228540897369385
+6 7 1732275675.1056507 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.460974931716919
+6 8 1732275682.0637245 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.949046850204468
+6 9 1732275684.3196533 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.255567789077759
+6 10 1732275734.1617851 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 49.81952881813049
+6 11 1732275736.1478276 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.985090732574463
+6 12 1732275738.4219062 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.2737061977386475
+6 13 1732275740.6703625 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.2480759620666504
+6 14 1732275743.8900554 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.2144112586975098
+6 15 1732275746.1353397 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.244749069213867
+6 16 1732275760.1196675 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 13.980685472488403
+6 17 1732275762.3646917 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.2447116374969482
+6 18 1732275764.6274333 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.2623484134674072
+6 19 1732275767.8220122 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.1891415119171143
+6 20 1732275770.0826116 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2601265907287598
+6 21 1732275772.3507268 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.2678287029266357
+6 22 1732275774.601476 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.250351905822754
+6 23 1732275776.850689 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.2487573623657227
+6 24 1732275779.1016886 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2506473064422607
+Initial input channels: 12
+Epoch 0 training loss: 0.0810163687331392
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+7 0 1732275789.494215 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.2564680576324463
+7 1 1732275791.738171 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.2435033321380615
+7 2 1732275794.003971 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2653636932373047
+7 3 1732275796.247617 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.2431271076202393
+7 4 1732275802.3724916 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.12438440322876
+7 5 1732275804.6272037 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.2542450428009033
+7 6 1732275806.8839493 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.256295919418335
+7 7 1732275809.1427617 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.2583372592926025
+7 8 1732275882.7970462 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 73.62186074256897
+7 9 1732275885.06716 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.2697792053222656
+7 10 1732275899.1276507 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.056827306747437
+7 11 1732275901.3964038 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 2.2684202194213867
+7 12 1732275904.6122942 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.2106306552886963
+7 13 1732275906.8647447 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.252146005630493
+7 14 1732275909.1225963 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.2575767040252686
+7 15 1732275911.378932 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.25588059425354
+7 16 1732275913.6725647 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.2931785583496094
+7 17 1732275914.9552562 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2822909355163574
+7 18 1732275917.3173907 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.3616631031036377
+7 19 1732275932.897034 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.575749397277832
+7 20 1732275935.3050578 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.4075746536254883
+7 21 1732275937.812699 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.50732159614563
+7 22 1732275940.092899 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.279742956161499
+7 23 1732275942.3522432 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.258857011795044
+7 24 1732275944.593976 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.241265058517456
+Initial input channels: 12
+Epoch 0 training loss: 0.03932522395944205
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+8 0 1732275955.6660702 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.5085084438323975
+8 1 1732275961.7960773 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.129517078399658
+8 2 1732275964.0452344 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2486658096313477
+8 3 1732275966.3012047 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.255465030670166
+8 4 1732275968.561123 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.25944185256958
+8 5 1732275970.8004928 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.2389047145843506
+8 6 1732275973.060809 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.2598190307617188
+8 7 1732275975.561211 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.4999146461486816
+8 8 1732275976.844212 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.282531976699829
+8 9 1732275979.2109673 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.3662142753601074
+8 10 1732275986.0472963 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.831658840179443
+8 11 1732275988.3053122 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.2576658725738525
+8 12 1732275990.5484557 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.242835760116577
+8 13 1732275993.0503259 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.501424789428711
+8 14 1732275995.3241613 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.2733750343322754
+8 15 1732275997.5834317 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.2588133811950684
+8 16 1732276000.0814438 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.497528314590454
+8 17 1732276002.3492208 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.267315626144409
+8 18 1732276004.6046348 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.2549595832824707
+8 19 1732276006.854335 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.249217987060547
+8 20 1732276008.1364052 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2816658020019531
+8 21 1732276010.4976811 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.361004590988159
+8 22 1732276012.9314106 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.4332187175750732
+8 23 1732276014.2243006 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2924003601074219
+8 24 1732276029.8715456 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.642580032348633
+Initial input channels: 12
+Epoch 0 training loss: 0.022885238274385402
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+9 0 1732276093.5549202 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 54.838093519210815
+9 1 1732276096.0037167 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.447894334793091
+9 2 1732276098.4259663 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.421942710876465
+9 3 1732276101.843913 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.412395477294922
+9 4 1732276104.2795267 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.4352662563323975
+9 5 1732276106.7209055 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.441056489944458
+9 6 1732276109.1422946 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.420900821685791
+9 7 1732276111.5834649 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.440652847290039
+9 8 1732276127.1481662 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.560747385025024
+9 9 1732276129.5838804 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.435398578643799
+9 10 1732276132.0112233 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.427020788192749
+9 11 1732276134.4452262 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.433555841445923
+9 12 1732276216.5306337 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 82.05262088775635
+9 13 1732276218.97098 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.440016031265259
+9 14 1732276221.400421 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.429175853729248
+9 15 1732276222.693078 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2922227382659912
+9 16 1732276225.112312 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.418877363204956
+9 17 1732276227.4707825 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.3577802181243896
+9 18 1732276228.7718403 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.3005728721618652
+9 19 1732276231.0740297 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.3015568256378174
+9 20 1732276232.9681022 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.893587589263916
+9 21 1732276247.8564649 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.881190299987793
+9 22 1732276248.6025906 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.7457339763641357
+9 23 1732276250.6991 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.096181631088257
+9 24 1732276252.9627342 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.2631590366363525
+Initial input channels: 12
+Epoch 0 training loss: 0.03090010062740995
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+10 0 1732276269.5101693 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.523815393447876
+10 1 1732276275.8307922 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.316289901733398
+10 2 1732276277.685035 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.8533248901367188
+10 3 1732276292.4946089 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.806290626525879
+10 4 1732276294.5993502 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.1044468879699707
+10 5 1732276295.3238037 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.7241270542144775
+10 6 1732276297.4586582 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.1345877647399902
+10 7 1732276299.7460065 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.2869203090667725
+10 8 1732276313.8203743 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.06985092163086
+10 9 1732276319.8357213 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.014912366867065
+10 10 1732276321.6898987 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.8538517951965332
+10 11 1732276323.8488297 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.1584932804107666
+10 12 1732276330.8126507 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.9589362144470215
+10 13 1732276333.067236 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.252880573272705
+10 14 1732276347.8396056 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.768898725509644
+10 15 1732276349.7550871 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.915015697479248
+10 16 1732276351.6033895 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.8478703498840332
+10 17 1732276353.4633708 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8595521450042725
+10 18 1732276368.2184181 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.75142240524292
+10 19 1732276370.0594263 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.8407156467437744
+10 20 1732276371.930465 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.870795726776123
+10 21 1732276373.7809753 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8501019477844238
+10 22 1732276375.6673608 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.885873556137085
+10 23 1732276377.5115855 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.8437776565551758
+10 24 1732276379.3445406 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.8325064182281494
+Initial input channels: 12
+Epoch 0 training loss: 0.07168038091530386
+Stopped training from convergence condition at epoch 11
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+11 0 1732276390.8620486 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.8412115573883057
+11 1 1732276392.7215102 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.8589978218078613
+11 2 1732276394.5583897 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.836435079574585
+11 3 1732276396.680814 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.121967315673828
+11 4 1732276398.5164905 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 1.835172414779663
+11 5 1732276404.7031097 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.182467937469482
+11 6 1732276455.9122133 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 51.181994915008545
+11 7 1732276457.9016247 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.9881572723388672
+11 8 1732276460.1553328 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 2.253419876098633
+11 9 1732276462.4062984 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2505691051483154
+11 10 1732276464.6517594 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.2449629306793213
+11 11 1732276466.9092734 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.256960868835449
+11 12 1732276469.1536598 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.2429893016815186
+11 13 1732276475.9195166 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.761551141738892
+11 14 1732276478.1696022 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.2496449947357178
+11 15 1732276480.4169264 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.247025489807129
+11 16 1732276482.665924 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.248521089553833
+11 17 1732276484.9402914 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.2738659381866455
+11 18 1732276487.181289 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.2405200004577637
+11 19 1732276489.4363904 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.254633903503418
+11 20 1732276491.6766012 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2397549152374268
+11 21 1732276493.9340425 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.256920337677002
+11 22 1732276496.1827545 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 2.248270034790039
+11 23 1732276498.430998 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.2477524280548096
+11 24 1732276500.7229636 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.291440725326538
+Initial input channels: 12
+Epoch 0 training loss: 0.011057445062945944
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+12 0 1732276511.0893052 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2812621593475342
+12 1 1732276564.9154127 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.80795621871948
+12 2 1732276566.7803018 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.8637168407440186
+12 3 1732276568.6260028 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8453736305236816
+12 4 1732276570.482807 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8563425540924072
+12 5 1732276572.3288333 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8455805778503418
+12 6 1732276587.117088 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.784649133682251
+12 7 1732276588.9707282 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8533554077148438
+12 8 1732276595.2565424 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.2820680141448975
+12 9 1732276597.0929835 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 1.8361263275146484
+12 10 1732276598.9500704 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8567709922790527
+12 11 1732276600.7866507 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8361129760742188
+12 12 1732276602.6540475 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8669579029083252
+12 13 1732276605.4603283 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.8013734817504883
+12 14 1732276659.023692 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.54755878448486
+12 15 1732276660.8977058 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 1.8737068176269531
+12 16 1732276662.7518759 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8538846969604492
+12 17 1732276664.6555867 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.9032292366027832
+12 18 1732276666.5178745 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.8618390560150146
+12 19 1732276719.9418204 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.40821719169617
+12 20 1732276721.7956283 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.8535161018371582
+12 21 1732276723.657602 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.8616514205932617
+12 22 1732276738.4335186 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.772320747375488
+12 23 1732276740.3116663 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 1.8778505325317383
+12 24 1732276742.1635604 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8515148162841797
+Initial input channels: 12
+Epoch 0 training loss: 0.01294848468292077
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+13 0 1732276754.2979715 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.8796627521514893
+13 1 1732276756.192884 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.8944885730743408
+13 2 1732276758.051316 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.8579645156860352
+13 3 1732276764.306485 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.251264333724976
+13 4 1732276766.1685302 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.8617420196533203
+13 5 1732276768.0255003 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 1.8567380905151367
+13 6 1732276769.8984332 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 1.8726482391357422
+13 7 1732276784.6659527 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 14.764299869537354
+13 8 1732276790.907836 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.238038778305054
+13 9 1732276792.7581637 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8500478267669678
+13 10 1732276793.5098891 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.7514994144439697
+13 11 1732276847.1296363 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.60400032997131
+13 12 1732276849.2538671 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.123934745788574
+13 13 1732276854.9711087 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 5.716923952102661
+13 14 1732276935.4885278 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 80.48657846450806
+13 15 1732276937.6406884 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.1518547534942627
+13 16 1732276939.4849527 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.844022274017334
+13 17 1732276940.2332146 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.7480015754699707
+13 18 1732276942.1305857 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8968441486358643
+13 19 1732276943.9985197 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.8675289154052734
+13 20 1732276945.8799543 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.8810017108917236
+13 21 1732276946.6300743 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 0.7497274875640869
+13 22 1732276948.818854 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.1882152557373047
+13 23 1732276949.9322608 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.1124660968780518
+13 24 1732277033.4675624 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 83.50212049484253
+Initial input channels: 12
+Epoch 0 training loss: 0.04168412103970167
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+14 0 1732277045.941701 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.4428069591522217
+14 1 1732277047.226874 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.284684419631958
+14 2 1732277101.9964266 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 54.752527952194214
+14 3 1732277156.769386 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 54.75612282752991
+14 4 1732277159.2051213 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.4353179931640625
+14 5 1732277160.4836674 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2782111167907715
+14 6 1732277176.1114469 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.623910903930664
+14 7 1732277231.0772035 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 54.94797229766846
+14 8 1732277233.5003734 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.4228310585021973
+14 9 1732277235.9538484 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.4531338214874268
+14 10 1732277251.5370703 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.579397916793823
+14 11 1732277258.415522 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.874154090881348
+14 12 1732277260.8407974 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.4249589443206787
+14 13 1732277263.2817621 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.4405722618103027
+14 14 1732277264.561757 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2795629501342773
+14 15 1732277267.0209832 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.4586682319641113
+14 16 1732277269.484038 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.4625046253204346
+14 17 1732277285.078589 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.590479850769043
+14 18 1732277287.5280075 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.449069023132324
+14 19 1732277290.0083175 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.4799094200134277
+14 20 1732277305.6140296 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.601884126663208
+14 21 1732277308.0400486 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.4256956577301025
+14 22 1732277310.7416415 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.701200008392334
+14 23 1732277312.0242488 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2822062969207764
+14 24 1732277315.4710143 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.4409899711608887
+Initial input channels: 12
+Epoch 0 training loss: 0.012671410367943281
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+15 0 1732277329.0010033 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.395803928375244
+15 1 1732277331.4605696 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.4592223167419434
+15 2 1732277334.863944 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.3980939388275146
+15 3 1732277337.2963028 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.4320502281188965
+15 4 1732277339.7318678 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 2.4352762699127197
+15 5 1732277342.165907 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.4334959983825684
+15 6 1732277344.585071 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.418656587600708
+15 7 1732277350.8982759 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.3127288818359375
+15 8 1732277353.351591 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.452826976776123
+15 9 1732277408.284338 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 54.91539549827576
+15 10 1732277410.7213607 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 2.436683416366577
+15 11 1732277413.1598337 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.438091516494751
+15 12 1732277414.441716 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2814853191375732
+15 13 1732277416.8639424 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.42169451713562
+15 14 1732277419.2724378 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.407862663269043
+15 15 1732277421.763955 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.491020917892456
+15 16 1732277424.1909912 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.426605463027954
+15 17 1732277427.5883374 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.392003297805786
+15 18 1732277430.0156567 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.4269168376922607
+15 19 1732277432.429697 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.4137449264526367
+15 20 1732277434.8494506 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.419294834136963
+15 21 1732277437.3073707 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.4574575424194336
+15 22 1732277439.7364314 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.428619623184204
+15 23 1732277441.021226 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2843923568725586
+15 24 1732277447.1705823 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.148898601531982
+Initial input channels: 12
+Epoch 0 training loss: 0.016765276302724556
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+16 0 1732277460.8388543 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.2043826580047607
+16 1 1732277462.1271138 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2878482341766357
+16 2 1732277464.4317076 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.3041675090789795
+16 3 1732277466.6211152 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.18872332572937
+16 4 1732277469.0575998 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.4360268115997314
+16 5 1732277476.028752 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.9668896198272705
+16 6 1732277478.458331 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.4292616844177246
+16 7 1732277480.8945274 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.4359183311462402
+16 8 1732277483.3353448 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.440397024154663
+16 9 1732277489.652797 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.317023515701294
+16 10 1732277492.0850937 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.4318013191223145
+16 11 1732277494.5106344 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.42507266998291
+16 12 1732277496.9433131 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.432234764099121
+16 13 1732277500.3505638 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.4019155502319336
+16 14 1732277502.7856245 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_knn20.sql 2.434755563735962
+16 15 1732277504.0671654 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2812917232513428
+16 16 1732277506.486838 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/9_complex.sql 2.4191277027130127
+16 17 1732277509.1029792 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.6154494285583496
+16 18 1732277511.5362039 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 2.432762861251831
+16 19 1732277513.9838836 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.4472289085388184
+16 20 1732277516.4379454 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.453596353530884
+16 21 1732277517.7252693 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.2869174480438232
+16 22 1732277524.0467458 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.321018695831299
+16 23 1732277526.2949839 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.2477097511291504
+16 24 1732277528.5791068 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.2835867404937744
+Initial input channels: 12
+Epoch 0 training loss: 0.007447946406079894
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+17 0 1732277541.0467386 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.3289332389831543
+17 1 1732277543.5070531 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.4598114490509033
+17 2 1732277546.9116008 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 3.399258852005005
+17 3 1732277549.3413885 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.429412603378296
+17 4 1732277551.7684593 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.426816701889038
+17 5 1732277554.2516458 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.4827327728271484
+17 6 1732277556.7148507 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.4627633094787598
+17 7 1732277563.0580373 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/21_complex.sql 6.342829465866089
+17 8 1732277565.5396426 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/2_knn.sql 2.481147527694702
+17 9 1732277580.841152 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.297823429107666
+17 10 1732277583.2931302 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 2.451669454574585
+17 11 1732277598.6917245 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.393629312515259
+17 12 1732277613.874116 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/17_complex.sql 15.178320169448853
+17 13 1732277667.7697885 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.878114461898804
+17 14 1732277670.25177 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 2.481666326522827
+17 15 1732277672.7005415 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.4485275745391846
+17 16 1732277675.1630964 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 2.462100028991699
+17 17 1732277676.4745262 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.3110182285308838
+17 18 1732277677.5940683 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/4_norm.sql 1.1190557479858398
+17 19 1732277679.4598503 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/11_complex.sql 1.8649811744689941
+17 20 1732277681.324124 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8637797832489014
+17 21 1732277683.1943555 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.869720458984375
+17 22 1732277685.0544114 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8595695495605469
+17 23 1732277687.2482233 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/15_complex.sql 2.1930811405181885
+17 24 1732277689.6820083 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.43335223197937
+Initial input channels: 12
+Epoch 0 training loss: 0.013163548518016743
+Stopped training from convergence condition at epoch 10
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+18 0 1732277702.9267 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/7_complex.sql 2.4440438747406006
+18 1 1732277705.6369662 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.709773540496826
+18 2 1732277706.916739 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 1.2793142795562744
+18 3 1732277709.1498117 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 2.232560396194458
+18 4 1732277711.3391392 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 2.1886239051818848
+18 5 1732277792.616179 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 81.23920488357544
+18 6 1732277794.8635056 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 2.246112108230591
+18 7 1732277874.945596 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/19_complex.sql 80.05146408081055
+18 8 1732277876.8183565 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.8724102973937988
+18 9 1732277878.6470325 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/6_complex.sql 1.828446388244629
+18 10 1732277880.4961555 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/8_complex.sql 1.848698616027832
+18 11 1732277882.3285995 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 1.8319745063781738
+18 12 1732277884.1849017 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/5_complex.sql 1.8557801246643066
+18 13 1732277886.0346043 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/22_complex.sql 1.849226951599121
+18 14 1732277888.149156 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/23_complex.sql 2.1141819953918457
+18 15 1732277889.981244 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.831641674041748
+18 16 1732277891.812151 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/16_complex.sql 1.8306701183319092
+18 17 1732277894.631683 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.814401626586914
+18 18 1732277896.5074894 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/10_complex.sql 1.8754775524139404
+18 19 1732277950.2387378 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/18_complex.sql 53.7151939868927
+18 20 1732277950.9671006 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/3_dist.sql 0.7280704975128174
+18 21 1732277953.12877 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/1_knn.sql 2.1613850593566895
+18 22 1732277955.367265 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/13_complex.sql 2.2378532886505127
+18 23 1732277958.1618888 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/20_complex.sql 2.789642810821533
+18 24 1732277964.4530613 /home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/12_complex.sql 6.287207126617432
