@@ -1,1 +1,1 @@
-vBao: Learned Query Optimizer for Vector Database
+## vBao: Learned Query Optimizer for Vector Database
