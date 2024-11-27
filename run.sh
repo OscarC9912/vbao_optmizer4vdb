@@ -1,3 +1,8 @@
-data="/home/zchenhj/workspace/BaoForPostgreSQL/sample_vec_queries/*.sql"
-python /home/zchenhj/workspace/BaoForPostgreSQL/run_queries.py $data | tee /home/zchenhj/workspace/BaoForPostgreSQL/results/arm5_500data_50/bao_run.txt
-python /home/zchenhj/workspace/BaoForPostgreSQL/run_queries_pg.py $data | tee /home/zchenhj/workspace/BaoForPostgreSQL/results/arm5_500data_50/pg_run.txt
+#!/bin/bash
+
+data="/home/zchenhj/workspace/vBao/sample_queries/*.sql"
+results_dir="/home/zchenhj/workspace/vBao/imdb_result"
+mkdir -p "$results_dir"
+
+python /home/zchenhj/workspace/vBao/run_queries.py $data | tee "$results_dir/bao_run.txt"
+python /home/zchenhj/workspace/vBao/run_queries_pg.py $data | tee "$results_dir/pg_run.txt"

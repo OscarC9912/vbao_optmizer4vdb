@@ -12,9 +12,7 @@ WITH top_neighbors AS (
         53
     )
 )
-SELECT 
-    tn.id,
-    ei.embedding::vector <-> ei2.embedding::vector AS distance
+SELECT tn.id
 FROM top_neighbors tn
 JOIN embedding_info ei ON tn.id = ei.id
 JOIN embedding_info ei2 ON ei.Document = ei2.Document

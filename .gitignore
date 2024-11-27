@@ -6,6 +6,10 @@
 .clangd
 
 tmp/
+bao_server/wandb
+dataset/
+imdb_result/
+*.svg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

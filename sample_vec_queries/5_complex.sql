@@ -13,8 +13,7 @@ WITH top_neighbors AS (
     )
 )
 SELECT 
-    tn.id AS ID, ei.Policy AS Policy, ei.Regulation AS Reg,
-    (SELECT embedding FROM embedding_info ORDER BY id LIMIT 1)::vector <-> ei.embedding::vector AS distance
+    tn.id AS ID, ei.Policy AS Policy, ei.Regulation AS Reg
 FROM top_neighbors AS tn
 JOIN embedding_info AS ei ON tn.id = ei.id
 WHERE Organization=1 AND Industry=0 AND Country=1;

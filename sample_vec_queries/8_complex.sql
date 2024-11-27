@@ -1,4 +1,4 @@
-SELECT count(id)
+SELECT COUNT(id)
 FROM vector_k_nearest_neighbor(
     (SELECT embedding 
      FROM embedding_info 

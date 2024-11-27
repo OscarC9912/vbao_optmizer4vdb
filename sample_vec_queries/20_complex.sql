@@ -12,8 +12,7 @@ WITH top_neighbors AS (
         784
     )
 )
-SELECT 
-    tn.id, ei.Document AS Doc, ei.Date AS Date
+SELECT tn.id, ei.Document AS Doc, ei.Date AS Date
 FROM top_neighbors tn
 JOIN embedding_info ei ON tn.id = ei.id
 JOIN embedding_info ei2 ON ei.Document = ei2.Document

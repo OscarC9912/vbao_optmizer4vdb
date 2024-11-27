@@ -64,7 +64,7 @@ AND (it5.id in ('34'))
 USE_BAO = True
 PG_CONNECTION_STR = "dbname=imdb user=zchenhj host=localhost port=5434 password=chen181412"
 
-def query_encode_extraction(query, cache_file="/home/zchenhj/workspace/BaoForPostgreSQL/tmp/temp_cache.json"):
+def query_encode_extraction(query, cache_file="/home/zchenhj/workspace/vBao/tmp/temp_cache.json"):
     output = dict()
     if "vector_k_nearest_neighbor" in query:
         pattern = r"vector_k_nearest_neighbor\(\s*\(\s*SELECT.*?\),.*?,.*?,\s*(\d+)\s*\)"

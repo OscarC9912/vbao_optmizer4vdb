@@ -1,9 +1,11 @@
+import time
 import json
 import numpy as np
 import torch
 import torch.optim
 import joblib
 import os
+import wandb
 from sklearn import preprocessing
 from sklearn.pipeline import Pipeline
 
@@ -110,6 +112,8 @@ class BaoRegression:
             joblib.dump(self.__n, f)
 
     def fit(self, X, y):
+        wandb.init(project=f"tcnn_training_imdb_{time.time()}", config={"epochs": 100, "batch_size": 16, "optimizer": "Adam", "loss_fn": "MSELoss"})
+        
         if isinstance(y, list):
             y = np.array(y)
 
@@ -166,6 +170,7 @@ class BaoRegression:
 
             loss_accum /= len(dataset)
             losses.append(loss_accum)
+            wandb.log({"epoch": epoch, "loss": loss_accum})
             if epoch % 15 == 0:
                 self.__log("Epoch", epoch, "training loss:", loss_accum)
 
@@ -177,6 +182,85 @@ class BaoRegression:
                     break
         else:
             self.__log("Stopped training after max epochs")
+        
+        wandb.finish()
+
+    # def fit(self, X, y):
+    #     wandb.init(project=f"tcnn_training_{time.time()}", config={"epochs": 100, "batch_size": 16, "optimizer": "Adam", "loss_fn": "MSELoss"})
+
+    #     if isinstance(y, list):
+    #         y = np.array(y)
+
+    #     X = [json.loads(x) if isinstance(x, str) else x for x in X]
+    #     self.__n = len(X)
+
+    #     # Transform the set of trees into feature vectors
+    #     y = self.__pipeline.fit_transform(y.reshape(-1, 1)).astype(np.float32)
+
+    #     self.__tree_transform.fit(X)
+    #     X = self.__tree_transform.transform(X)
+
+    #     pairs = list(zip(X, y))
+    #     dataset = DataLoader(pairs,
+    #                         batch_size=16,
+    #                         shuffle=True,
+    #                         collate_fn=collate)
+
+    #     # Determine the initial number of channels
+    #     for inp, _tar in dataset:
+    #         in_channels = inp[0][0].shape[0]
+    #         break
+
+    #     self.__log("Initial input channels:", in_channels)
+
+    #     if self.__have_cache_data:
+    #         assert in_channels == self.__tree_transform.num_operators() + 3
+    #     else:
+    #         assert in_channels == self.__tree_transform.num_operators() + 2
+
+    #     self.__net = net.BaoNet(in_channels)
+    #     self.__in_channels = in_channels
+    #     if CUDA:
+    #         self.__net = self.__net.cuda()
+
+    #     # optimizer = torch.optim.Adam(self.__net.parameters())
+    #     optimizer = torch.optim.Adam(self.__net.parameters(), lr=2e-4, weight_decay=1e-5)
+    #     loss_fn = torch.nn.MSELoss()
+
+    #     losses = []
+    #     for epoch in range(100):
+    #         loss_accum = 0
+    #         for x, y in dataset:
+    #             if CUDA:
+    #                 y = y.cuda()
+    #             y_pred = self.__net(x)
+    #             loss = loss_fn(y_pred, y)
+    #             loss_accum += loss.item()
+
+    #             optimizer.zero_grad()
+    #             loss.backward()
+    #             optimizer.step()
+
+    #         loss_accum /= len(dataset)
+    #         losses.append(loss_accum)
+            
+    #         # Log loss to wandb
+    #         wandb.log({"epoch": epoch, "loss": loss_accum})
+
+    #         if epoch % 15 == 0:
+    #             self.__log("Epoch", epoch, "training loss:", loss_accum)
+
+    #         # Stopping condition
+    #         if len(losses) > 10 and losses[-1] < 0.1:
+    #             last_two = np.min(losses[-2:])
+    #             if last_two > losses[-10] or (losses[-10] - last_two < 0.0001):
+    #                 self.__log("Stopped training from convergence condition at epoch", epoch)
+    #                 break
+    #     else:
+    #         self.__log("Stopped training after max epochs")
+
+    #     # Finish the wandb run
+    #     wandb.finish()
 
     def predict(self, X):
         if not isinstance(X, list):

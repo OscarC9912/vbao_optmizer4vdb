@@ -1,3 +1,4 @@
+import numpy as np
 import psycopg2
 import os
 import subprocess
@@ -9,7 +10,8 @@ import re
 import socket
 
 USE_BAO = False
-PG_CONNECTION_STR = "dbname=hk_data user=zchenhj host=localhost port=5434 password=chen181412"
+PG_CONNECTION_STR = "dbname=imdb user=zchenhj host=localhost port=5434 password=chen181412"
+CACHE_DIR = "/home/zchenhj/workspace/vBao/tmp/temp_cache.json"
 
 # https://stackoverflow.com/questions/312443/
 def chunks(lst, n):
@@ -40,8 +42,15 @@ def run_query(sql, bao_select=False, bao_reward=False):
     return stop - start
 
 
+def estimate_nns_cost(k, num_vectors=140000, dim=1024):
+    distance_computation_cost = dim * num_vectors * 1e-7  # Cost of distance computations
+    sorting_cost = num_vectors * np.log2(num_vectors) * 1e-8  # Cost of sorting
+    top_k_selection_cost = k * 1e-6  # Cost of selecting top-k results
+    total_cost = distance_computation_cost + sorting_cost + top_k_selection_cost
+    return total_cost * 1000
 
-def query_encode_extraction(query, cache_file="/home/zchenhj/workspace/BaoForPostgreSQL/tmp/temp_cache.json"):
+
+def query_encode_extraction(query, cache_file=CACHE_DIR):
     output = dict()
     if "vector_k_nearest_neighbor" in query:
         pattern = r"vector_k_nearest_neighbor\(\s*\(\s*SELECT.*?\),.*?,.*?,\s*(\d+)\s*\)"
@@ -49,17 +58,15 @@ def query_encode_extraction(query, cache_file="/home/zchenhj/workspace/BaoForPos
         if match:
             topk = int(match.group(1))
             output['topk'] = f"{topk}"
-        else:
-            output['topk'] = "0"
     else:
         output['topk'] = "0"
-        
-    # Save output to a cache file
-    if os.path.exists(cache_file):
-        os.remove(cache_file)
-        
+
+    output['knn_cost'] = estimate_nns_cost(int(output['topk']))
+
+    os.remove(cache_file) if os.path.exists(cache_file) else None
     with open(cache_file, "w") as f:
         json.dump(output, f)
+
 
 def query_info_transfer(data):
     server_address = ('localhost', 9381)
@@ -71,7 +78,6 @@ def query_info_transfer(data):
         print(f"Error communicating with server: {e}")
         
 
-     
 query_paths = sys.argv[1:]
 queries = []
 for fp in query_paths:
@@ -83,7 +89,7 @@ print("Using Bao:", USE_BAO)
 
 random.seed(42)
 query_sequence = random.choices(queries, k=500)
-pg_chunks, *bao_chunks = list(chunks(query_sequence, 50))
+pg_chunks, *bao_chunks = list(chunks(query_sequence, 25))
 
 print("Executing queries using PG optimizer for initial training")
 
@@ -97,6 +103,5 @@ for c_idx, chunk in enumerate(bao_chunks):
         result = subprocess.run(["python", "baoctl.py", "--retrain"], cwd="bao_server")
         result_sync = subprocess.run("sync", shell=True)
     for q_idx, (fp, q) in enumerate(chunk):
-        query_encode_extraction(q)
         q_time = run_query(q, bao_reward=USE_BAO, bao_select=USE_BAO)
         print(c_idx, q_idx, time(), fp, q_time, flush=True)

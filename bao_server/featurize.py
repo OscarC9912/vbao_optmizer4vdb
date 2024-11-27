@@ -60,7 +60,7 @@ class TreeBuilder:
         arr = np.zeros(len(ALL_TYPES))
         arr[ALL_TYPES.index(node["Node Type"])] = 1
         encoding_data = None
-        with open('/home/zchenhj/workspace/BaoForPostgreSQL/tmp/temp_cache.json', "r") as ffile:
+        with open('/home/zchenhj/workspace/vBao/tmp/temp_cache.json', "r") as ffile:
             encoding_data = json.load(ffile)
         assert encoding_data is not None
         arr[4] = int(encoding_data['topk'])

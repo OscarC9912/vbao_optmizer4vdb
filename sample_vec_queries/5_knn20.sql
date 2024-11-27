@@ -9,10 +9,6 @@ WITH top_neighbors AS (
         20
     )
 )
-SELECT 
-    tn.id,
-    (SELECT embedding 
-     FROM embedding_info 
-     ORDER BY id LIMIT 1)::vector <-> ei.embedding::vector AS distance
+SELECT tn.id
 FROM top_neighbors tn
 JOIN embedding_info ei ON tn.id = ei.id;

@@ -13,8 +13,7 @@ WITH top_neighbors AS (
     )
 )
 SELECT 
-    tn.id, Concept AS cpt, Industry AS ids,
-    (SELECT embedding FROM embedding_info ORDER BY id LIMIT 1)::vector <-> ei.embedding::vector AS distance
+    tn.id, Concept AS cpt, Industry AS ids
 FROM top_neighbors tn
 JOIN embedding_info ei ON tn.id = ei.id
 WHERE Organization=1 AND Document=0 AND "Legal Document"=1;

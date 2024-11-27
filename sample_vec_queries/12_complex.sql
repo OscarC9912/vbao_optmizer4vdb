@@ -14,7 +14,6 @@ WITH top_neighbors AS (
 )
 SELECT 
     tn.id,
-    (SELECT embedding FROM embedding_info ORDER BY id LIMIT 1)::vector <-> ei.embedding::vector AS distance,
     ei.Document,
     ei.Product,
     ei.Country,

@@ -12,11 +12,7 @@ WITH top_neighbors AS (
         40
     )
 )
-SELECT 
-    tn.id,
-    (SELECT embedding 
-     FROM embedding_info 
-     ORDER BY id LIMIT 1 OFFSET 301)::vector <-> ei.embedding::vector AS distance
+SELECT tn.id
 FROM top_neighbors tn
 JOIN embedding_info ei ON tn.id = ei.id
 WHERE Object=0 AND "Legal Document"=1 AND Location=0
