@@ -12,10 +12,10 @@ FROM title AS t,
      company_type AS ct,
      company_name AS cn,
      vector_k_nearest_neighbor(
-         (SELECT vec_name FROM name ORDER BY id LIMIT 1),
-         'name',
+         (SELECT vec_name FROM char_name ORDER BY id LIMIT 1),
+         'char_name',
          'vec_name',
-         82
+         100000
      ) AS vknn
 WHERE
     t.id = ci.movie_id

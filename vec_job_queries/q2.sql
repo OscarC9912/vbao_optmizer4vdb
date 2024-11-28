@@ -6,17 +6,17 @@ FROM title AS t,
      cast_info AS ci,
      role_type AS rt,
      name AS n,
+     vector_k_nearest_neighbor(
+         (SELECT vec_title FROM title ORDER BY id LIMIT 1 OFFSET 780),
+         'title',
+         'vec_title',
+         1500000
+     ) AS vknn,
      movie_keyword AS mk,
      keyword AS k,
      movie_companies AS mc,
      company_type AS ct,
-     company_name AS cn,
-     vector_k_nearest_neighbor(
-         (SELECT vec_title FROM title ORDER BY id LIMIT 1),
-         'title',
-         'vec_title',
-         10
-     ) AS vknn
+     company_name AS cn
 WHERE
     t.id = ci.movie_id
     AND t.id = mc.movie_id

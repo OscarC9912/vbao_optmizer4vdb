@@ -1,6 +1,12 @@
 SELECT COUNT(*)
 FROM title AS t,
      movie_info AS mi1,
+     vector_k_nearest_neighbor(
+         (SELECT vec_name FROM company_name ORDER BY id LIMIT 1 OFFSET 674),
+         'company_name',
+         'vec_name',
+         234000
+     ) AS vknn
      kind_type AS kt,
      info_type AS it1,
      info_type AS it3,
@@ -15,12 +21,6 @@ FROM title AS t,
      person_info AS pi1,
      cast_info AS ci,
      role_type AS rt,
-     vector_k_nearest_neighbor(
-         (SELECT vec_title FROM title ORDER BY id LIMIT 1),
-         'title',
-         'vec_title',
-         30
-     ) AS vknn
 WHERE
     t.id = mi1.movie_id
     AND t.id = ci.movie_id

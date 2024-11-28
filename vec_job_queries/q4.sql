@@ -12,10 +12,10 @@ FROM title AS t,
      company_type AS ct,
      company_name AS cn,
      vector_k_nearest_neighbor(
-         (SELECT vec_keyword FROM keyword ORDER BY id LIMIT 1),
+         (SELECT vec_keyword FROM keyword ORDER BY id LIMIT 1 OFFSET 90),
          'keyword',
          'vec_keyword',
-         120
+         12000
      ) AS vknn
 WHERE
     t.id = ci.movie_id
