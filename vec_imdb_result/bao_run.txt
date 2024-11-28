@@ -1,0 +1,635 @@
+Read 40 queries.
+Using Bao: True
+Executing queries using PG optimizer for initial training
+x x 1732775726.6437063 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 49.842848777770996 PG
+x x 1732775751.6207607 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 24.976454257965088 PG
+x x 1732775753.5448675 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 1.9236505031585693 PG
+x x 1732775832.1504483 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.60509490966797 PG
+x x 1732775872.0161076 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 39.86518621444702 PG
+x x 1732775909.6110094 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 37.59442758560181 PG
+x x 1732775931.220575 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.609086275100708 PG
+x x 1732775995.91019 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 64.68911218643188 PG
+x x 1732776010.6016915 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.691044569015503 PG
+x x 1732776035.4805295 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 24.878366947174072 PG
+x x 1732776113.8049643 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.32398700714111 PG
+x x 1732776173.5797064 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 59.7742133140564 PG
+x x 1732776198.478919 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 24.898751735687256 PG
+x x 1732776203.8685496 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 5.389208078384399 PG
+x x 1732776252.423295 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.554320335388184 PG
+x x 1732776343.4263618 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.00261306762695 PG
+x x 1732776421.8087034 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.38165020942688 PG
+x x 1732776427.5528834 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.743690490722656 PG
+x x 1732776433.5073664 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 5.954049110412598 PG
+x x 1732776482.292945 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 48.78515148162842 PG
+x x 1732776488.1577833 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 5.864401817321777 PG
+x x 1732776525.6739857 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 37.51576209068298 PG
+x x 1732776536.3311436 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 10.65668511390686 PG
+x x 1732776538.87342 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.541867256164551 PG
+x x 1732776577.6778028 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.803934812545776 PG
+Initial input channels: 12
+Epoch 0 training loss: 0.020399809975400633
+Epoch 15 training loss: 0.0009062066309669606
+Stopped training from convergence condition at epoch 17
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+0 0 1732776649.9498951 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 20.95922875404358
+0 1 1732776714.7652435 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 64.81509375572205
+0 2 1732776779.560062 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 64.79434752464294
+0 3 1732776800.0141473 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 20.453640937805176
+0 4 1732776833.7020695 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 33.68747615814209
+0 5 1732776843.509529 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 9.807037830352783
+0 6 1732776882.4976692 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.987685680389404
+0 7 1732776974.0438185 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.5456748008728
+0 8 1732777012.5400264 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.49581789970398
+0 9 1732777014.308669 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.7682955265045166
+0 10 1732777023.6586602 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 9.349644184112549
+0 11 1732777044.126616 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 20.467597007751465
+0 12 1732777077.5334904 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 33.40652418136597
+0 13 1732777097.746751 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 20.21273970603943
+0 14 1732777103.4608018 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.71371054649353
+0 15 1732777112.5919724 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 9.13076376914978
+0 16 1732777137.3550746 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 24.762760877609253
+0 17 1732777165.659534 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.304027318954468
+0 18 1732777167.781937 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.121968984603882
+0 19 1732777233.163421 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 65.38105416297913
+0 20 1732777261.7752826 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.611361503601074
+0 21 1732777275.2117028 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.435954332351685
+0 22 1732777277.3448913 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.13276743888855
+0 23 1732777325.7546964 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.40935802459717
+0 24 1732777332.4536371 /home/zchenhj/workspace/vBao/vec_job_queries/q23.sql 6.698513507843018
+Initial input channels: 12
+Epoch 0 training loss: 0.017946319998372928
+Epoch 15 training loss: 0.0008418639951523128
+Stopped training from convergence condition at epoch 25
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+1 0 1732777408.708019 /home/zchenhj/workspace/vBao/vec_job_queries/q23.sql 6.58790135383606
+1 1 1732777487.0665226 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.35798954963684
+1 2 1732777511.774139 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 24.707154273986816
+1 3 1732777529.6259837 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.85138750076294
+1 4 1732777578.0659142 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.4394588470459
+1 5 1732777611.4848225 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 33.4184205532074
+1 6 1732777614.239821 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.7545576095581055
+1 7 1732777653.2800844 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 39.039812326431274
+1 8 1732777656.0357358 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.755232095718384
+1 9 1732777657.8132167 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.777073621749878
+1 10 1732777671.6841109 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 13.870489358901978
+1 11 1732777720.0883062 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.40375304222107
+1 12 1732777729.430936 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 9.34191608428955
+1 13 1732777766.9335213 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 37.502126693725586
+1 14 1732777781.2995198 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 14.365570306777954
+1 15 1732777818.034121 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 36.734166860580444
+1 16 1732777846.305658 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.271052598953247
+1 17 1732777871.0405216 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 24.73439598083496
+1 18 1732777878.3171735 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 7.2762041091918945
+1 19 1732777903.0332322 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 24.71559238433838
+1 20 1732777981.6036472 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.56998062133789
+1 21 1732777999.474474 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.87052273750305
+1 22 1732778021.1028697 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.62810182571411
+1 23 1732778028.380371 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 7.277023553848267
+1 24 1732778032.339714 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.9589099884033203
+Initial input channels: 12
+Epoch 0 training loss: 0.015290372132394496
+Epoch 15 training loss: 0.0008709096813333086
+Stopped training from convergence condition at epoch 19
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+2 0 1732778088.360697 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.7563221454620361
+2 1 1732778112.8175406 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 24.456581354141235
+2 2 1732778114.9054182 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 2.0874361991882324
+2 3 1732778142.241177 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 27.335307598114014
+2 4 1732778169.7813177 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 27.539620876312256
+2 5 1732778178.3774724 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 8.595586776733398
+2 6 1732778205.813514 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 27.43548607826233
+2 7 1732778210.8776104 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.063543081283569
+2 8 1732778231.859927 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 20.98176860809326
+2 9 1732778233.0836334 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.2231991291046143
+2 10 1732778308.8616211 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 75.77747583389282
+2 11 1732778316.242034 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.3796305656433105
+2 12 1732778372.9641616 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 56.721604108810425
+2 13 1732778435.7336962 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 62.76895308494568
+2 14 1732778462.1905084 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 26.456238508224487
+2 15 1732778475.218578 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.02753210067749
+2 16 1732778526.1551025 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 50.93596529960632
+2 17 1732778564.2598317 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 38.10416913032532
+2 18 1732778578.4236467 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.163246631622314
+2 19 1732778584.5666714 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 6.14247727394104
+2 20 1732778585.7854085 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.2183279991149902
+2 21 1732778593.2454429 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.459574937820435
+2 22 1732778684.6583545 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.41236400604248
+2 23 1732778722.106858 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 37.44791769981384
+2 24 1732778733.311608 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 11.204201221466064
+Initial input channels: 12
+Epoch 0 training loss: 0.02008294025244842
+Epoch 15 training loss: 0.0006743711684859724
+Stopped training from convergence condition at epoch 24
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+3 0 1732778832.9277472 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 31.330973863601685
+3 1 1732778841.905949 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 8.977693557739258
+3 2 1732778882.4377172 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 40.531235694885254
+3 3 1732778974.4186068 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.98033905029297
+3 4 1732779003.0874617 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 28.66828680038452
+3 5 1732779054.4076397 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 51.31964182853699
+3 6 1732779067.4480047 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.039812564849854
+3 7 1732779071.1569276 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 3.7083704471588135
+3 8 1732779072.6938775 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 1.5364232063293457
+3 9 1732779110.3854914 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 37.69109606742859
+3 10 1732779131.470113 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.08376979827881
+3 11 1732779160.0781512 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 28.607501983642578
+3 12 1732779216.9073238 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 56.828656911849976
+3 13 1732779223.2356782 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 6.327857971191406
+3 14 1732779249.8536623 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 26.61763572692871
+3 15 1732779261.0938988 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 11.239696264266968
+3 16 1732779262.6939676 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 1.5995872020721436
+3 17 1732779314.008953 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 51.31447196006775
+3 18 1732779340.4732022 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 26.463696002960205
+3 19 1732779342.6305728 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.156902551651001
+3 20 1732779377.0100958 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 34.37900757789612
+3 21 1732779468.5905366 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.57989931106567
+3 22 1732779506.8234787 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 38.23238968849182
+3 23 1732779598.9836855 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 92.15965294837952
+3 24 1732779630.5805953 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 31.596364498138428
+Initial input channels: 12
+Epoch 0 training loss: 0.02469445363945292
+Epoch 15 training loss: 0.0005719195924194533
+Stopped training from convergence condition at epoch 24
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+4 0 1732779710.368887 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.6888182163238525
+4 1 1732779761.0338812 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 50.66439747810364
+4 2 1732779778.9908679 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.9564425945282
+4 3 1732779800.0121832 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.020783185958862
+4 4 1732779813.6265275 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 13.613832235336304
+4 5 1732779820.2948196 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.66778302192688
+4 6 1732779826.2829401 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 5.9875710010528564
+4 7 1732779847.2701943 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 20.986742734909058
+4 8 1732779865.2629406 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.9921977519989
+4 9 1732779927.6085677 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 62.3447949886322
+4 10 1732779930.5018232 /home/zchenhj/workspace/vBao/vec_job_queries/q28.sql 2.8927242755889893
+4 11 1732779936.4781213 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 5.9759862422943115
+4 12 1732779970.6948729 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 34.216355323791504
+4 13 1732780005.027788 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 34.3324818611145
+4 14 1732780009.4796436 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.451534271240234
+4 15 1732780012.3675082 /home/zchenhj/workspace/vBao/vec_job_queries/q28.sql 2.8874940872192383
+4 16 1732780104.1834533 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.81506848335266
+4 17 1732780140.2188168 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 36.0348002910614
+4 18 1732780151.4994946 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 11.28015422821045
+4 19 1732780165.7184315 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.218385457992554
+4 20 1732780242.2413452 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 76.5223708152771
+4 21 1732780334.1071854 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.8652880191803
+4 22 1732780373.83152 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 39.7237811088562
+4 23 1732780450.4319782 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 76.59990525245667
+4 24 1732780457.1002693 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.667746543884277
+Initial input channels: 12
+Epoch 0 training loss: 0.01639140090917398
+Epoch 15 training loss: 0.0004926208245375866
+Stopped training from convergence condition at epoch 19
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+5 0 1732780523.4817367 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.403926134109497
+5 1 1732780574.8378017 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 51.355461835861206
+5 2 1732780578.5365646 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 3.698213577270508
+5 3 1732780635.5866575 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 57.04953575134277
+5 4 1732780648.5811644 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 12.993537425994873
+5 5 1732780724.9888594 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 76.40714454650879
+5 6 1732780741.2324736 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 16.243050575256348
+5 7 1732780746.293917 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.060909271240234
+5 8 1732780773.5266404 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 27.23036503791809
+5 9 1732780850.0433497 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 76.51617908477783
+5 10 1732780856.2246718 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 6.180772066116333
+5 11 1732780907.6158423 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 51.39069652557373
+5 12 1732780934.8842938 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 27.26789951324463
+5 13 1732780961.4823935 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 26.59752082824707
+5 14 1732780980.6455865 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 19.16263771057129
+5 15 1732780986.7512693 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 6.105146408081055
+5 16 1732781014.0953815 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 27.34358859062195
+5 17 1732781017.56546 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.4695730209350586
+5 18 1732781093.9170516 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 76.35105609893799
+5 19 1732781098.3836796 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.466121673583984
+5 20 1732781116.4260333 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 18.041820287704468
+5 21 1732781125.0573115 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 8.630751132965088
+5 22 1732781126.5930526 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 1.535238265991211
+5 23 1732781165.2718306 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 38.67826223373413
+5 24 1732781194.2986841 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 29.026346921920776
+Initial input channels: 12
+Epoch 0 training loss: 0.033678760152672314
+Epoch 15 training loss: 0.0006786805723095312
+Stopped training from convergence condition at epoch 22
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+6 0 1732781263.5255945 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 3.2543022632598877
+6 1 1732781329.127153 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 65.60127544403076
+6 2 1732781333.3830671 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 4.255467891693115
+6 3 1732781347.9291635 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.545664548873901
+6 4 1732781350.0209112 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 2.091327667236328
+6 5 1732781390.28173 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 40.26038360595703
+6 6 1732781394.196814 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.9146621227264404
+6 7 1732781402.064032 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.86649227142334
+6 8 1732781467.525789 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 65.46132588386536
+6 9 1732781482.012426 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.486191987991333
+6 10 1732781493.2432065 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 11.230350971221924
+6 11 1732781505.1746593 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 11.93100881576538
+6 12 1732781533.5621362 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.387046575546265
+6 13 1732781536.8272717 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 3.2646989822387695
+6 14 1732781541.1072927 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 4.279583692550659
+6 15 1732781555.539651 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.431918859481812
+6 16 1732781557.6768699 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.1367790699005127
+6 17 1732781585.9642794 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.286912441253662
+6 18 1732781610.5096402 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 24.544894456863403
+6 19 1732781614.7814574 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 4.27136492729187
+6 20 1732781626.7127893 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 11.930888891220093
+6 21 1732781636.0410864 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 9.327826499938965
+6 22 1732781643.2584627 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 7.216902732849121
+6 23 1732781651.102986 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.844119310379028
+6 24 1732781671.4415846 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 20.33819341659546
+Initial input channels: 12
+Epoch 0 training loss: 0.017819641455433573
+Epoch 15 training loss: 0.0007165448914266895
+Stopped training from convergence condition at epoch 18
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+7 0 1732781766.0193253 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.30377221107483
+7 1 1732781783.9080348 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.8882098197937
+7 2 1732781819.1248474 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 35.21640467643738
+7 3 1732781821.874902 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.749570369720459
+7 4 1732781825.2391894 /home/zchenhj/workspace/vBao/vec_job_queries/q28.sql 3.363856077194214
+7 5 1732781903.4256191 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.18593668937683
+7 6 1732781917.8998551 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.473581314086914
+7 7 1732781924.9845521 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 7.084221363067627
+7 8 1732781926.7569232 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.7719624042510986
+7 9 1732781934.6100426 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.852696418762207
+7 10 1732781960.2564514 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 25.645991802215576
+7 11 1732781996.9672697 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 36.710447549819946
+7 12 1732781999.0403922 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 2.072686195373535
+7 13 1732782013.5311115 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.490369319915771
+7 14 1732782051.7741046 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.24253797531128
+7 15 1732782059.5837781 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.809252023696899
+7 16 1732782068.9659653 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 9.381832122802734
+7 17 1732782078.7013571 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 9.734970569610596
+7 18 1732782081.4369383 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.735260486602783
+7 19 1732782083.572957 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.1355369091033936
+7 20 1732782122.7398484 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 39.166523933410645
+7 21 1732782128.4790907 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.738767862319946
+7 22 1732782219.0442922 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 90.56474876403809
+7 23 1732782257.979094 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.934332847595215
+7 24 1732782264.9764295 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 6.996877670288086
+Initial input channels: 12
+Epoch 0 training loss: 0.013413975134538129
+Epoch 15 training loss: 0.0011497282745008227
+Stopped training from convergence condition at epoch 15
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+8 0 1732782317.756332 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.772730350494385
+8 1 1732782377.6163447 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 59.85966777801514
+8 2 1732782389.766776 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 12.149869203567505
+8 3 1732782392.489279 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.722010612487793
+8 4 1732782431.5038083 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 39.0140118598938
+8 5 1732782497.2916985 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 65.7870409488678
+8 6 1732782500.5842946 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 3.2920947074890137
+8 7 1732782506.3397815 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.754969120025635
+8 8 1732782547.0982852 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 40.757959604263306
+8 9 1732782575.8891149 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.790343284606934
+8 10 1732782589.674675 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.785017013549805
+8 11 1732782611.3931837 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.717977046966553
+8 12 1732782640.2942057 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.90047550201416
+8 13 1732782646.0564594 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.761713266372681
+8 14 1732782678.280827 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 32.22383165359497
+8 15 1732782693.0412552 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.759973049163818
+8 16 1732782698.819883 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.778075456619263
+8 17 1732782759.5275545 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 60.70713782310486
+8 18 1732782777.9699042 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 18.441808700561523
+8 19 1732782857.6046312 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 79.63422536849976
+8 20 1732782866.9597573 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 9.35458254814148
+8 21 1732782895.7502773 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.790181636810303
+8 22 1732782897.5148375 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.7640578746795654
+8 23 1732782901.6082957 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 4.092990398406982
+8 24 1732782903.739014 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.1302413940429688
+Initial input channels: 12
+Epoch 0 training loss: 0.01743728889509246
+Epoch 15 training loss: 0.0008235649885809044
+Stopped training from convergence condition at epoch 19
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+9 0 1732782972.2122853 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 7.473697900772095
+9 1 1732783008.0127072 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 35.8000705242157
+9 2 1732783014.7768345 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 6.763531923294067
+9 3 1732783016.6835454 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 1.9063835144042969
+9 4 1732783024.1914794 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.507079601287842
+9 5 1732783031.648358 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.456401348114014
+9 6 1732783037.4270673 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 5.778178453445435
+9 7 1732783113.6312351 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 76.20361065864563
+9 8 1732783142.4775467 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 28.845762014389038
+9 9 1732783160.7243524 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 18.246442556381226
+9 10 1732783181.8102782 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.085453510284424
+9 11 1732783202.928011 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.117161512374878
+9 12 1732783209.2734208 /home/zchenhj/workspace/vBao/vec_job_queries/q23.sql 6.344894170761108
+9 13 1732783211.4192374 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.1455116271972656
+9 14 1732783224.8976836 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 13.477964639663696
+9 15 1732783282.2239177 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 57.325756549835205
+9 16 1732783308.9081764 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 26.68389582633972
+9 17 1732783316.3572824 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.44864296913147
+9 18 1732783319.8227236 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.4651389122009277
+9 19 1732783370.5466754 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 50.72343158721924
+9 20 1732783399.5152822 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 28.968275785446167
+9 21 1732783401.3584054 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 1.8426012992858887
+9 22 1732783405.1320522 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.77335786819458
+9 23 1732783422.996941 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.86450171470642
+9 24 1732783427.484021 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.486577033996582
+Initial input channels: 12
+Epoch 0 training loss: 0.01767680533653063
+Epoch 15 training loss: 0.0012736233815742487
+Stopped training from convergence condition at epoch 15
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+10 0 1732783493.031528 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.294116020202637
+10 1 1732783505.9791582 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 12.947052001953125
+10 2 1732783514.5610967 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 8.581581354141235
+10 3 1732783548.1221642 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 33.56002736091614
+10 4 1732783575.970003 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 27.84731435775757
+10 5 1732783584.3135188 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 8.343153476715088
+10 6 1732783662.304815 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 77.99085974693298
+10 7 1732783710.5760348 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.27071523666382
+10 8 1732783742.493229 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 31.91672158241272
+10 9 1732783745.8755972 /home/zchenhj/workspace/vBao/vec_job_queries/q28.sql 3.3819446563720703
+10 10 1732783770.2150185 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 24.33897066116333
+10 11 1732783784.269797 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 14.05434274673462
+10 12 1732783849.8438592 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 65.57361102104187
+10 13 1732783864.184228 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.33989691734314
+10 14 1732783866.3133082 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.128634214401245
+10 15 1732783914.9194984 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 48.60579490661621
+10 16 1732783948.8901546 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 33.97016763687134
+10 17 1732783997.1672895 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.27664399147034
+10 18 1732784029.055084 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 31.88732099533081
+10 19 1732784067.6797204 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.62420845031738
+10 20 1732784076.754331 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 9.074292659759521
+10 21 1732784081.021674 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 4.266947031021118
+10 22 1732784129.8076308 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 48.78547930717468
+10 23 1732784195.5934255 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 65.78530097007751
+10 24 1732784217.1944346 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.600513219833374
+Initial input channels: 12
+Epoch 0 training loss: 0.022243244311539456
+Epoch 15 training loss: 0.0006911967652079969
+Stopped training from convergence condition at epoch 23
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+11 0 1732784311.9154663 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 24.122233390808105
+11 1 1732784402.1625807 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 90.24683237075806
+11 2 1732784422.278682 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 20.115342140197754
+11 3 1732784428.0162613 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.737119197845459
+11 4 1732784432.8321614 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.81546425819397
+11 5 1732784437.7102058 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.877641439437866
+11 6 1732784444.9553158 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 7.244862079620361
+11 7 1732784466.5507004 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.59492325782776
+11 8 1732784503.1809928 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 36.62980604171753
+11 9 1732784515.1232011 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 11.941706657409668
+11 10 1732784536.8041172 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.68045949935913
+11 11 1732784614.767033 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 77.96243071556091
+11 12 1732784642.8256288 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.0581214427948
+11 13 1732784656.236776 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.41068983078003
+11 14 1732784692.8851557 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 36.647897243499756
+11 15 1732784714.4737425 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.588111639022827
+11 16 1732784728.9084442 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.434220790863037
+11 17 1732784760.8005311 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 31.891624927520752
+11 18 1732784763.5312004 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.730254888534546
+11 19 1732784781.5001214 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.968480587005615
+11 20 1732784793.4725158 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 11.97195053100586
+11 21 1732784801.3310015 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.858078241348267
+11 22 1732784807.7416208 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 6.41021728515625
+11 23 1732784829.355242 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.61318588256836
+11 24 1732784859.2177024 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 29.86197853088379
+Initial input channels: 12
+Epoch 0 training loss: 0.02389703571951309
+Epoch 15 training loss: 0.0006003892746883724
+Stopped training from convergence condition at epoch 24
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+12 0 1732784979.5357363 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.73902082443237
+12 1 1732784990.3883774 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 10.851887464523315
+12 2 1732785008.338182 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.94945192337036
+12 3 1732785018.1255655 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 9.787063121795654
+12 4 1732785038.169903 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 20.044111728668213
+12 5 1732785047.4613223 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 9.291099309921265
+12 6 1732785072.109444 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 24.647783279418945
+12 7 1732785108.7416174 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 36.631831407547
+12 8 1732785122.102247 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.360085487365723
+12 9 1732785142.1839836 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 20.08127784729004
+12 10 1732785162.2124395 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 20.02803945541382
+12 11 1732785240.2338305 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.0211091041565
+12 12 1732785249.6683102 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 9.433971643447876
+12 13 1732785251.7369895 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 2.0682151317596436
+12 14 1732785259.238611 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 7.501100778579712
+12 15 1732785297.0226934 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 37.783583641052246
+12 16 1732785325.7016718 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.678425312042236
+12 17 1732785360.192967 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 34.4907763004303
+12 18 1732785363.4751008 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 3.281651496887207
+12 19 1732785374.3699298 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 10.894328832626343
+12 20 1732785394.6989412 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 20.328510284423828
+12 21 1732785433.5662708 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.866832971572876
+12 22 1732785435.6938016 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.1270556449890137
+12 23 1732785488.2426975 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 52.548388719558716
+12 24 1732785490.0016758 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.758481502532959
+Initial input channels: 12
+Epoch 0 training loss: 0.02570225303748548
+Epoch 15 training loss: 0.0006801417761793147
+Stopped training from convergence condition at epoch 20
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+13 0 1732785570.5100334 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 13.94259238243103
+13 1 1732785664.2253547 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 93.71475100517273
+13 2 1732785683.0792253 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 18.853331804275513
+13 3 1732785696.6617038 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.581953525543213
+13 4 1732785735.298105 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.63586163520813
+13 5 1732785738.5679593 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 3.2693612575531006
+13 6 1732785777.9453678 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 39.37687969207764
+13 7 1732785804.9567704 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 27.010876893997192
+13 8 1732785818.0572472 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.099888801574707
+13 9 1732785822.2031074 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 4.145299911499023
+13 10 1732785861.0329154 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.82902479171753
+13 11 1732785867.9254055 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.892079591751099
+13 12 1732785904.4102821 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 36.48435020446777
+13 13 1732785953.8907182 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 49.47991466522217
+13 14 1732785955.6383457 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.7470932006835938
+13 15 1732785960.8081892 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.1693644523620605
+13 16 1732785987.9666228 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 27.1578848361969
+13 17 1732785997.2108405 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 9.2437162399292
+13 18 1732786029.3665245 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 32.15473532676697
+13 19 1732786046.7661579 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.39911961555481
+13 20 1732786136.2550225 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 89.48832392692566
+13 21 1732786145.5290153 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 9.273496866226196
+13 22 1732786183.6136043 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.0840482711792
+13 23 1732786187.5590377 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.9449310302734375
+13 24 1732786194.204705 /home/zchenhj/workspace/vBao/vec_job_queries/q23.sql 6.645223617553711
+Initial input channels: 12
+Epoch 0 training loss: 0.013691727853195819
+Stopped training from convergence condition at epoch 14
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+14 0 1732786249.5896544 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 6.603720188140869
+14 1 1732786253.5689456 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.97879695892334
+14 2 1732786273.6208313 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 20.05134654045105
+14 3 1732786280.2221203 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.6007397174835205
+14 4 1732786293.7613032 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 13.538659572601318
+14 5 1732786301.7542174 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 7.992434978485107
+14 6 1732786308.4027934 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.648057460784912
+14 7 1732786315.0313272 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.6279871463775635
+14 8 1732786329.0694065 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.037552118301392
+14 9 1732786343.214005 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.144062042236328
+14 10 1732786344.7779744 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 1.5634939670562744
+14 11 1732786349.0029023 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.224457740783691
+14 12 1732786363.0994399 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.096018075942993
+14 13 1732786380.5362017 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 17.43622350692749
+14 14 1732786421.1525931 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 40.615856647491455
+14 15 1732786447.3808994 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 26.227715730667114
+14 16 1732786472.51898 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 25.13751220703125
+14 17 1732786479.1761098 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 6.656619548797607
+14 18 1732786573.6894693 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 94.51280856132507
+14 19 1732786624.9668357 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 51.276798725128174
+14 20 1732786626.5531683 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 1.5858616828918457
+14 21 1732786630.2591097 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 3.7054264545440674
+14 22 1732786635.459781 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.200143575668335
+14 23 1732786638.8173378 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.356797933578491
+14 24 1732786640.3178456 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 1.5000524520874023
+Initial input channels: 12
+Epoch 0 training loss: 0.026309759314025846
+Epoch 15 training loss: 0.000631048950335036
+Stopped training from convergence condition at epoch 24
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+15 0 1732786726.2517638 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 3.6544792652130127
+15 1 1732786804.5302303 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 78.27812433242798
+15 2 1732786806.057171 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 1.5264441967010498
+15 3 1732786833.369815 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 27.312090396881104
+15 4 1732786871.0012412 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 37.63089632987976
+15 5 1732786873.2118132 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.210082530975342
+15 6 1732786936.7317924 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 63.519455909729004
+15 7 1732786993.9500258 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 57.21771168708801
+15 8 1732787045.374934 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 51.42438006401062
+15 9 1732787066.2645113 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 20.30641007423401
+15 10 1732787094.3517537 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 28.08674669265747
+15 11 1732787128.403291 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 34.051002740859985
+15 12 1732787131.8745706 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.470771551132202
+15 13 1732787207.5280304 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 75.6529529094696
+15 14 1732787210.2905781 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 2.7620503902435303
+15 15 1732787243.6809988 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 33.38990879058838
+15 16 1732787270.8637092 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 27.182194471359253
+15 17 1732787273.755029 /home/zchenhj/workspace/vBao/vec_job_queries/q28.sql 2.8908369541168213
+15 18 1732787287.2938483 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 13.538368940353394
+15 19 1732787293.5712264 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 6.276878595352173
+15 20 1732787308.047047 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.475316524505615
+15 21 1732787361.0113392 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 52.963754653930664
+15 22 1732787363.7900805 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 2.777940273284912
+15 23 1732787402.2083302 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 38.41716814041138
+15 24 1732787405.6228354 /home/zchenhj/workspace/vBao/vec_job_queries/q28.sql 3.414052963256836
+Initial input channels: 12
+Epoch 0 training loss: 0.02484913274273085
+Epoch 15 training loss: 0.0009572857141789622
+Stopped training from convergence condition at epoch 27
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+16 0 1732787523.2125309 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.07721996307373
+16 1 1732787527.1167119 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.903705596923828
+16 2 1732787557.1689453 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 30.051717519760132
+16 3 1732787591.714071 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 34.54483938217163
+16 4 1732787625.7223945 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 34.007843017578125
+16 5 1732787639.1843708 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 13.461429357528687
+16 6 1732787643.4815776 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 4.296725749969482
+16 7 1732787646.7617958 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 3.2798099517822266
+16 8 1732787685.3484986 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.58625626564026
+16 9 1732787745.7028823 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 60.35385847091675
+16 10 1732787752.806283 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 7.102911949157715
+16 11 1732787780.96788 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.161165237426758
+16 12 1732787794.9822197 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 14.013901710510254
+16 13 1732787797.0554752 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 2.072770118713379
+16 14 1732787806.8577483 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 9.80188274383545
+16 15 1732787810.7397966 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 3.8818440437316895
+16 16 1732787818.5802631 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 7.840242147445679
+16 17 1732787824.45984 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.87912130355835
+16 18 1732787862.579523 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.11923623085022
+16 19 1732787884.147382 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.567389726638794
+16 20 1732787912.0887718 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 27.940929651260376
+16 21 1732787920.5480917 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 8.458530902862549
+16 22 1732787980.843462 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 60.294955015182495
+16 23 1732787994.8871245 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 14.043222904205322
+16 24 1732788085.1451085 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 90.25755643844604
+Initial input channels: 12
+Epoch 0 training loss: 0.016260432057190754
+Epoch 15 training loss: 0.000928680276975145
+Stopped training from convergence condition at epoch 26
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+17 0 1732788194.2049334 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.626056909561157
+17 1 1732788232.947666 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.74223279953003
+17 2 1732788235.02673 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 2.07863712310791
+17 3 1732788260.0815876 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 25.054417371749878
+17 4 1732788288.2172656 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 28.13523578643799
+17 5 1732788336.6105483 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.39284300804138
+17 6 1732788370.5436683 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 33.93267822265625
+17 7 1732788430.8236325 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 60.279505252838135
+17 8 1732788479.297179 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 48.47310280799866
+17 9 1732788504.0241137 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 24.72646427154541
+17 10 1732788569.6855216 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 65.66096043586731
+17 11 1732788571.7934866 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 2.1075220108032227
+17 12 1732788596.558026 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 24.76405620574951
+17 13 1732788603.8555076 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 7.297025442123413
+17 14 1732788694.501391 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 90.64539003372192
+17 15 1732788699.2608705 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.7590086460113525
+17 16 1732788726.6029038 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 27.339138507843018
+17 17 1732788765.5182104 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 38.91475200653076
+17 18 1732788773.4327989 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 7.914045810699463
+17 19 1732788779.3995826 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 5.966167688369751
+17 20 1732788793.4941087 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.093722105026245
+17 21 1732788884.9351432 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 91.44047474861145
+17 22 1732788899.0292041 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.093491077423096
+17 23 1732788975.200304 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 76.17053890228271
+17 24 1732788989.2886689 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.087802171707153
+Initial input channels: 12
+Epoch 0 training loss: 0.01812296989020375
+Epoch 15 training loss: 0.0007541955576517109
+Stopped training from convergence condition at epoch 19
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+18 0 1732789076.5240495 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 25.602275133132935
+18 1 1732789082.243019 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.718449354171753
+18 2 1732789119.8662102 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 37.622689723968506
+18 3 1732789139.9992182 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 20.132467031478882
+18 4 1732789174.527773 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 34.52807331085205
+18 5 1732789176.2918184 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 1.7635743618011475
+18 6 1732789225.161534 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 48.86924719810486
+18 7 1732789231.9618573 /home/zchenhj/workspace/vBao/vec_job_queries/q23.sql 6.799858570098877
+18 8 1732789265.8777583 /home/zchenhj/workspace/vBao/vec_job_queries/q38.sql 33.915422439575195
+18 9 1732789285.938461 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 20.060205698013306
+18 10 1732789324.4433534 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 38.504611015319824
+18 11 1732789338.9077654 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.463921308517456
+18 12 1732789377.77532 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 38.86705255508423
+18 13 1732789468.1360855 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 90.3602659702301
+18 14 1732789501.441998 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 33.30543661117554
+18 15 1732789579.3604665 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 77.91819357872009
+18 16 1732789657.1739287 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 77.81298637390137
+18 17 1732789661.455168 /home/zchenhj/workspace/vBao/vec_job_queries/q26.sql 4.280746698379517
+18 18 1732789686.2085047 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 24.75288438796997
+18 19 1732789703.2856073 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 17.07634997367859
+18 20 1732789740.6961603 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 37.41009449958801
+18 21 1732789755.1282773 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.431634664535522
+18 22 1732789757.875895 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.7471842765808105
+18 23 1732789759.9465551 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 2.070253372192383
+18 24 1732789764.7731636 /home/zchenhj/workspace/vBao/vec_job_queries/q15.sql 4.8262104988098145

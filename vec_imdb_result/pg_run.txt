@@ -1,0 +1,106 @@
+Read 40 queries.
+Using Bao: False
+Executing queries using PG optimizer for initial training
+x x 1732792692.156067 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 51.035608530044556 PG
+x x 1732792719.2281063 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 27.071579694747925 PG
+x x 1732792721.1423728 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 1.91365647315979 PG
+x x 1732792791.210706 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 70.06767797470093 PG
+x x 1732792832.2022827 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 40.99065637588501 PG
+x x 1732792873.5202997 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 41.31673550605774 PG
+x x 1732792894.9986362 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 21.477665901184082 PG
+x x 1732792949.9919906 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 54.99268817901611 PG
+x x 1732792964.1199737 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 14.126724243164062 PG
+x x 1732792991.305412 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 27.18478560447693 PG
+x x 1732793060.446254 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 69.14018726348877 PG
+x x 1732793110.6822448 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 50.23532176017761 PG
+x x 1732793137.9223602 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 27.23948836326599 PG
+x x 1732793143.2967014 /home/zchenhj/workspace/vBao/vec_job_queries/q17.sql 5.3737633228302 PG
+x x 1732793195.6378644 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 52.34070539474487 PG
+x x 1732793284.8133903 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 89.17487931251526 PG
+x x 1732793354.0202017 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 69.205885887146 PG
+x x 1732793359.42852 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 5.407666921615601 PG
+x x 1732793365.3090458 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 5.879878520965576 PG
+x x 1732793415.8572552 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 50.54756450653076 PG
+x x 1732793421.7077377 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 5.8498854637146 PG
+x x 1732793462.6723707 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 40.963985204696655 PG
+x x 1732793472.3791838 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 9.70615839958191 PG
+x x 1732793474.8676257 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 2.487293004989624 PG
+x x 1732793508.5809288 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 33.7126579284668 PG
+0 0 1732793514.9482749 /home/zchenhj/workspace/vBao/vec_job_queries/q22.sql 6.367255687713623
+0 1 1732793568.9332218 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 53.98486399650574
+0 2 1732793622.2630324 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 53.329731702804565
+0 3 1732793634.592173 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 12.32907485961914
+0 4 1732793659.1437218 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 24.551464557647705
+0 5 1732793663.325421 /home/zchenhj/workspace/vBao/vec_job_queries/q3.sql 4.181615114212036
+0 6 1732793699.5634012 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 36.23789739608765
+0 7 1732793787.2570603 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 87.69354176521301
+0 8 1732793818.278154 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 31.02100372314453
+0 9 1732793818.318941 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 0.04070639610290527
+0 10 1732793825.037348 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 6.718321800231934
+0 11 1732793837.0740533 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 12.036615371704102
+0 12 1732793861.849192 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 24.77504587173462
+0 13 1732793876.1124852 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 14.26320219039917
+0 14 1732793879.5656743 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 3.4531047344207764
+0 15 1732793886.5122375 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 6.946477174758911
+0 16 1732793911.8934119 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 25.381086587905884
+0 17 1732793935.5335424 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 23.64004349708557
+0 18 1732793935.7333913 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 0.19976019859313965
+0 19 1732793989.3082619 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 53.57478332519531
+0 20 1732794012.5036728 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 23.195323705673218
+0 21 1732794023.790099 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 11.28634524345398
+0 22 1732794023.9854794 /home/zchenhj/workspace/vBao/vec_job_queries/q20.sql 0.19530129432678223
+0 23 1732794074.1666346 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 50.18107318878174
+0 24 1732794081.7119296 /home/zchenhj/workspace/vBao/vec_job_queries/q23.sql 7.545211553573608
+1 0 1732794089.4413536 /home/zchenhj/workspace/vBao/vec_job_queries/q23.sql 7.729338645935059
+1 1 1732794155.4828029 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 66.0413703918457
+1 2 1732794178.7518427 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 23.268959045410156
+1 3 1732794194.3063734 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 15.554448366165161
+1 4 1732794244.5040452 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 50.19758987426758
+1 5 1732794269.0784166 /home/zchenhj/workspace/vBao/vec_job_queries/q32.sql 24.574284315109253
+1 6 1732794269.8438628 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 0.7653515338897705
+1 7 1732794305.892768 /home/zchenhj/workspace/vBao/vec_job_queries/q37.sql 36.04882001876831
+1 8 1732794306.6510355 /home/zchenhj/workspace/vBao/vec_job_queries/q16.sql 0.7581803798675537
+1 9 1732794306.690706 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 0.039587974548339844
+1 10 1732794317.625679 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 10.934889793395996
+1 11 1732794367.94291 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 50.31714057922363
+1 12 1732794374.489315 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 6.546316146850586
+1 13 1732794413.534441 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 39.0450382232666
+1 14 1732794425.5938578 /home/zchenhj/workspace/vBao/vec_job_queries/q40.sql 12.059328556060791
+1 15 1732794462.5877976 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 36.99384784698486
+1 16 1732794485.8176599 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 23.229771614074707
+1 17 1732794511.1622822 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 25.344534158706665
+1 18 1732794516.2713509 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 5.108979940414429
+1 19 1732794539.4959314 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 23.224493265151978
+1 20 1732794605.5254433 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 66.02939915657043
+1 21 1732794621.1349218 /home/zchenhj/workspace/vBao/vec_job_queries/q7.sql 15.609381914138794
+1 22 1732794640.8110957 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 19.676082849502563
+1 23 1732794645.913934 /home/zchenhj/workspace/vBao/vec_job_queries/q21.sql 5.10274863243103
+1 24 1732794648.0323596 /home/zchenhj/workspace/vBao/vec_job_queries/q34.sql 2.118345022201538
+2 0 1732794648.0667133 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 0.03427481651306152
+2 1 1732794672.8588984 /home/zchenhj/workspace/vBao/vec_job_queries/q6.sql 24.79211974143982
+2 2 1732794673.1772003 /home/zchenhj/workspace/vBao/vec_job_queries/q27.sql 0.31821608543395996
+2 3 1732794696.4754086 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 23.29811692237854
+2 4 1732794719.7070053 /home/zchenhj/workspace/vBao/vec_job_queries/q19.sql 23.231508493423462
+2 5 1732794726.319639 /home/zchenhj/workspace/vBao/vec_job_queries/q30.sql 6.612543106079102
+2 6 1732794749.522247 /home/zchenhj/workspace/vBao/vec_job_queries/q1.sql 23.20251727104187
+2 7 1732794752.9881086 /home/zchenhj/workspace/vBao/vec_job_queries/q31.sql 3.465773344039917
+2 8 1732794772.608094 /home/zchenhj/workspace/vBao/vec_job_queries/q5.sql 19.61989712715149
+2 9 1732794772.647949 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 0.039762020111083984
+2 10 1732794838.8150837 /home/zchenhj/workspace/vBao/vec_job_queries/q18.sql 66.16704750061035
+2 11 1732794849.7573159 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 10.942141771316528
+2 12 1732794897.8829706 /home/zchenhj/workspace/vBao/vec_job_queries/q29.sql 48.125568866729736
+2 13 1732794951.1616597 /home/zchenhj/workspace/vBao/vec_job_queries/q13.sql 53.27860069274902
+2 14 1732794976.5054371 /home/zchenhj/workspace/vBao/vec_job_queries/q11.sql 25.343692541122437
+2 15 1732794987.6844685 /home/zchenhj/workspace/vBao/vec_job_queries/q14.sql 11.178950071334839
+2 16 1732795037.9007874 /home/zchenhj/workspace/vBao/vec_job_queries/q33.sql 50.21623611450195
+2 17 1732795074.6471326 /home/zchenhj/workspace/vBao/vec_job_queries/q39.sql 36.746259450912476
+2 18 1732795086.700407 /home/zchenhj/workspace/vBao/vec_job_queries/q25.sql 12.053192377090454
+2 19 1732795089.9971554 /home/zchenhj/workspace/vBao/vec_job_queries/q12.sql 3.296658515930176
+2 20 1732795090.0767472 /home/zchenhj/workspace/vBao/vec_job_queries/q24.sql 0.0671834945678711
+2 21 1732795101.0283315 /home/zchenhj/workspace/vBao/vec_job_queries/q9.sql 10.951504230499268
+2 22 1732795188.7224264 /home/zchenhj/workspace/vBao/vec_job_queries/q2.sql 87.69399499893188
+2 23 1732795220.8465157 /home/zchenhj/workspace/vBao/vec_job_queries/q8.sql 32.12397837638855
+2 24 1732795235.1978414 /home/zchenhj/workspace/vBao/vec_job_queries/q4.sql 14.351216793060303
+3 0 1732795281.5143094 /home/zchenhj/workspace/vBao/vec_job_queries/q10.sql 46.31637620925903
+3 1 1732795288.248852 /home/zchenhj/workspace/vBao/vec_job_queries/q36.sql 6.734440326690674
+3 2 1732795327.1952658 /home/zchenhj/workspace/vBao/vec_job_queries/q35.sql 38.94633388519287
