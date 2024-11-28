@@ -1,11 +1,5 @@
 SELECT COUNT(*)
 FROM title as t,
-vector_k_nearest_neighbor(
-    (SELECT vec_info FROM person_info ORDER BY id LIMIT 1 OFFSET 214),
-    'person_info',
-    'vec_info',
-    10332210
-) AS vknn,
 movie_info as mi1,
 kind_type as kt,
 info_type as it1,
@@ -24,7 +18,6 @@ AND mii2.movie_id = mii1.movie_id
 AND mi1.movie_id = mii1.movie_id
 AND mk.movie_id = mi1.movie_id
 AND mk.keyword_id = k.id
-AND vknn.id = it4.id
 AND mi1.info_type_id = it1.id
 AND mii1.info_type_id = it3.id
 AND mii2.info_type_id = it4.id

@@ -10,7 +10,7 @@ import re
 import socket
 
 USE_BAO = False
-PG_CONNECTION_STR = "dbname=imdb user=zchenhj host=localhost port=5434 password=chen181412"
+PG_CONNECTION_STR = "dbname=vec_imdb user=zchenhj host=localhost port=5434 password=chen181412"
 CACHE_DIR = "/home/zchenhj/workspace/vBao/tmp/temp_cache.json"
 
 # https://stackoverflow.com/questions/312443/

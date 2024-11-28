@@ -1,11 +1,5 @@
 SELECT COUNT(*)
 FROM title as t,
-vector_k_nearest_neighbor(
-    (SELECT vec_name FROM char_name ORDER BY id LIMIT 1 OFFSET 13),
-    'char_name',
-    'vec_name',
-    785000
-) AS vknn,
 movie_info as mi1,
 kind_type as kt,
 info_type as it1,
@@ -23,7 +17,6 @@ cast_info as ci,
 role_type as rt
 WHERE
 t.id = mi1.movie_id
-AND vknn.id = n.id
 AND t.id = ci.movie_id
 AND t.id = mii1.movie_id
 AND t.id = mii2.movie_id

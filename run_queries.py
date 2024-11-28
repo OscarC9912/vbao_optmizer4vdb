@@ -10,7 +10,7 @@ import re
 import socket
 
 USE_BAO = True
-PG_CONNECTION_STR = "dbname=imdb user=zchenhj host=localhost port=5434 password=chen181412"
+PG_CONNECTION_STR = "dbname=vec_imdb user=zchenhj host=localhost port=5434 password=chen181412"
 CACHE_DIR = "/home/zchenhj/workspace/vBao/tmp/temp_cache.json"
 
 # https://stackoverflow.com/questions/312443/
@@ -42,12 +42,12 @@ def run_query(sql, bao_select=False, bao_reward=False):
     return stop - start
 
 
-def estimate_nns_cost(k, num_vectors=140000, dim=1024):
-    distance_computation_cost = dim * num_vectors * 1e-7  # Cost of distance computations
-    sorting_cost = num_vectors * np.log2(num_vectors) * 1e-8  # Cost of sorting
-    top_k_selection_cost = k * 1e-6  # Cost of selecting top-k results
-    total_cost = distance_computation_cost + sorting_cost + top_k_selection_cost
-    return total_cost * 1000
+# def estimate_nns_cost(k, num_vectors=140000, dim=1024):
+#     distance_computation_cost = dim * num_vectors * 1e-7  # Cost of distance computations
+#     sorting_cost = num_vectors * np.log2(num_vectors) * 1e-8  # Cost of sorting
+#     top_k_selection_cost = k * 1e-6  # Cost of selecting top-k results
+#     total_cost = distance_computation_cost + sorting_cost + top_k_selection_cost
+#     return total_cost * 1000
 
 def query_encode_extraction(query, cache_file=CACHE_DIR):
     output = dict()
@@ -55,7 +55,7 @@ def query_encode_extraction(query, cache_file=CACHE_DIR):
         pattern = r"vector_k_nearest_neighbor\(\s*\(\s*SELECT.*?\),.*?,.*?,\s*(\d+)\s*\)"
         match = re.search(pattern, query, re.DOTALL)
         if match:
-            topk = int(match.group(1))
+            topk = int(int(match.group(1)) / 10000)
             output['topk'] = f"{topk}"
     else:
         output['topk'] = "0"
