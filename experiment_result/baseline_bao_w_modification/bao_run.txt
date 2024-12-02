@@ -1,0 +1,638 @@
+Read 39 queries.
+Using Bao: True
+Executing queries using PG optimizer for initial training
+x x 1732872798.5612752 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.2743096351623535 PG
+x x 1732872807.2130148 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 8.65149974822998 PG
+x x 1732872809.51764 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 2.3041677474975586 PG
+x x 1732872814.487589 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 4.9695353507995605 PG
+x x 1732872862.3973825 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 47.90938663482666 PG
+x x 1732872870.5636673 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 8.165870904922485 PG
+x x 1732872888.1255355 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 17.56144404411316 PG
+x x 1732872900.9734166 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 12.847476959228516 PG
+x x 1732872908.2927053 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 7.31885290145874 PG
+x x 1732872920.5217896 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 12.22863507270813 PG
+x x 1732872922.039052 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.5168726444244385 PG
+x x 1732872989.7998524 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 67.76040315628052 PG
+x x 1732873000.0578263 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 10.257575988769531 PG
+x x 1732873005.1489995 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 5.090765714645386 PG
+x x 1732873009.3228896 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 4.173467636108398 PG
+x x 1732873014.3265293 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.0032336711883545 PG
+x x 1732873015.8359385 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.5090079307556152 PG
+x x 1732873018.2392862 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.402928113937378 PG
+x x 1732873029.9252007 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 11.685265302658081 PG
+x x 1732873038.6274912 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 8.701892614364624 PG
+x x 1732873050.8572361 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 12.229345321655273 PG
+x x 1732873059.582304 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 8.72462511062622 PG
+x x 1732873070.3094385 /home/zchenhj/workspace/vBao/sample_queries/q23_19d.sql 10.726374626159668 PG
+x x 1732873079.6286545 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 9.318715333938599 PG
+x x 1732873095.380639 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 15.751425743103027 PG
+Initial input channels: 12
+Epoch 0 training loss: 0.013404499050828083
+Epoch 15 training loss: 0.0007379230374335015
+Epoch 30 training loss: 0.00043302106066162184
+Stopped training from convergence condition at epoch 30
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+0 0 1732873243.1797729 /home/zchenhj/workspace/vBao/sample_queries/q23_19d.sql 6.5562145709991455
+0 1 1732873247.7302425 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.549998998641968
+0 2 1732873251.9118166 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.181110382080078
+0 3 1732873254.662251 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.749962329864502
+0 4 1732873256.0688157 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.406097412109375
+0 5 1732873274.0390086 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.969728708267212
+0 6 1732873295.941036 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 21.901561498641968
+0 7 1732873296.8945625 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9530718326568604
+0 8 1732873303.240062 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.345051527023315
+0 9 1732873304.2856088 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 1.04508638381958
+0 10 1732873309.5244114 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.238342761993408
+0 11 1732873330.1162028 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 20.59135365486145
+0 12 1732873332.4634042 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3467400074005127
+0 13 1732873335.159624 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.695770740509033
+0 14 1732873337.3359013 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.1758100986480713
+0 15 1732873345.3217912 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 7.985208511352539
+0 16 1732873350.356459 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 5.0342206954956055
+0 17 1732873351.605773 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.248878002166748
+0 18 1732873354.1514091 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.5451889038085938
+0 19 1732873358.6268675 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.475022077560425
+0 20 1732873380.79485 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 22.16753649711609
+0 21 1732873384.7402291 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 3.944939136505127
+0 22 1732873385.9206183 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1799461841583252
+0 23 1732873388.2726731 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3516011238098145
+0 24 1732873389.185246 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.9121139049530029
+Initial input channels: 12
+Epoch 0 training loss: 0.011819214328473512
+Epoch 15 training loss: 0.0004470981534161834
+Stopped training from convergence condition at epoch 21
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+1 0 1732873483.0886936 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.9011843204498291
+1 1 1732873484.3394182 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2502522468566895
+1 2 1732873485.5250306 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1851470470428467
+1 3 1732873492.1475685 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.622095584869385
+1 4 1732873495.350484 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.202461004257202
+1 5 1732873496.6891198 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.3381929397583008
+1 6 1732873499.0050328 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.315458297729492
+1 7 1732873512.499334 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 13.493844509124756
+1 8 1732873514.7827318 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.282951593399048
+1 9 1732873515.6995103 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.9163360595703125
+1 10 1732873522.8813908 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.181442975997925
+1 11 1732873525.2268379 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3450124263763428
+1 12 1732873530.7816887 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.554412841796875
+1 13 1732873535.093575 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.31143045425415
+1 14 1732873547.7239292 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 12.629645824432373
+1 15 1732873560.7889833 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 13.064614534378052
+1 16 1732873562.0470872 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.257641077041626
+1 17 1732873572.180219 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 10.132698774337769
+1 18 1732873577.844394 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.663720369338989
+1 19 1732873579.029514 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1846661567687988
+1 20 1732873580.266811 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.236863374710083
+1 21 1732873586.8762982 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.609055042266846
+1 22 1732873592.012518 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.135761260986328
+1 23 1732873597.509761 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.4967920780181885
+1 24 1732873600.6961877 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.185976982116699
+Initial input channels: 12
+Epoch 0 training loss: 0.0086007975537792
+Epoch 15 training loss: 0.0005536718133931081
+Stopped training from convergence condition at epoch 23
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+2 0 1732873705.9251053 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.947285175323486
+2 1 1732873711.839881 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.914321184158325
+2 2 1732873713.2809086 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.4407453536987305
+2 3 1732873714.4478438 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1664769649505615
+2 4 1732873728.0549397 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.606667041778564
+2 5 1732873732.7398264 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 4.68442702293396
+2 6 1732873733.9049702 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.164668083190918
+2 7 1732873736.0190077 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.113553524017334
+2 8 1732873741.989723 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.9702677726745605
+2 9 1732873746.9570942 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.966921806335449
+2 10 1732873748.1988728 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2412967681884766
+2 11 1732873755.348752 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.149423599243164
+2 12 1732873763.706976 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 8.357728958129883
+2 13 1732873780.4566574 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 16.749008655548096
+2 14 1732873785.423063 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 4.966044187545776
+2 15 1732873792.295865 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.872344970703125
+2 16 1732873794.6417387 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3454184532165527
+2 17 1732873807.7002873 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 13.05809473991394
+2 18 1732873813.8983212 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.197579383850098
+2 19 1732873818.5516722 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.652905464172363
+2 20 1732873819.456362 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.9044034481048584
+2 21 1732873826.572505 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.115698337554932
+2 22 1732873827.521401 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9485361576080322
+2 23 1732873833.6743357 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.151144504547119
+2 24 1732873836.3708742 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.6960842609405518
+Initial input channels: 12
+Epoch 0 training loss: 0.016122865551418415
+Epoch 15 training loss: 0.0015090340634583022
+Stopped training from convergence condition at epoch 15
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+3 0 1732873913.0445282 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.3008339405059814
+3 1 1732873934.8965816 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 21.851574420928955
+3 2 1732873939.249346 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.352318525314331
+3 3 1732873940.2010014 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9511923789978027
+3 4 1732873941.3712893 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.169823408126831
+3 5 1732873943.7196007 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3478755950927734
+3 6 1732873950.632519 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.912469387054443
+3 7 1732873957.5778146 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.944850444793701
+3 8 1732873958.8881028 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.3098366260528564
+3 9 1732873965.094591 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.2060441970825195
+3 10 1732873986.312023 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 21.216987133026123
+3 11 1732873987.4968977 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1844112873077393
+3 12 1732874002.687467 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 15.18983244895935
+3 13 1732874004.957521 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.269606828689575
+3 14 1732874022.3965666 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 17.438600778579712
+3 15 1732874025.2407117 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8437001705169678
+3 16 1732874027.7069821 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.4658048152923584
+3 17 1732874030.0464754 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3390514850616455
+3 18 1732874031.394237 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.3473129272460938
+3 19 1732874035.501063 /home/zchenhj/workspace/vBao/sample_queries/q15_18a.sql 4.1063807010650635
+3 20 1732874043.72901 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 8.227495431900024
+3 21 1732874049.5308325 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.801332950592041
+3 22 1732874070.5531785 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 21.021881818771362
+3 23 1732874071.4893134 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9356906414031982
+3 24 1732874074.7637172 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.273970127105713
+Initial input channels: 12
+Epoch 0 training loss: 0.010181266862018342
+Epoch 15 training loss: 0.0006185023552666211
+Stopped training from convergence condition at epoch 19
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+4 0 1732874168.8313878 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.715834856033325
+4 1 1732874177.3503845 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 8.518494367599487
+4 2 1732874229.1477947 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 51.79649066925049
+4 3 1732874234.5705373 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.422270774841309
+4 4 1732874247.3405707 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 12.769771337509155
+4 5 1732874249.5697854 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.2287957668304443
+4 6 1732874261.8052807 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 12.235083818435669
+4 7 1732874266.9596813 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.153987646102905
+4 8 1732874319.5623102 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 52.602213859558105
+4 9 1732874324.4903865 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.927654027938843
+4 10 1732874327.4613132 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.970517635345459
+4 11 1732874339.7329628 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 12.270984172821045
+4 12 1732874346.271345 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 6.537907838821411
+4 13 1732874352.7451591 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 6.473408222198486
+4 14 1732874357.5289388 /home/zchenhj/workspace/vBao/sample_queries/q15_18a.sql 4.7833616733551025
+4 15 1732874360.4418433 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.912459135055542
+4 16 1732874366.6471698 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 6.204925537109375
+4 17 1732874368.334803 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.6872239112854004
+4 18 1732874373.559221 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.2240235805511475
+4 19 1732874380.5101752 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.950549840927124
+4 20 1732874382.2778714 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.7673015594482422
+4 21 1732874388.4666808 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 6.18841814994812
+4 22 1732874401.977261 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 13.51016640663147
+4 23 1732874407.7451828 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 5.767473220825195
+4 24 1732874414.0158145 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 6.270247220993042
+Initial input channels: 12
+Epoch 0 training loss: 0.05117003175665996
+Epoch 15 training loss: 0.0011528803510774276
+Stopped training from convergence condition at epoch 28
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+5 0 1732874544.4535465 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.2817254066467285
+5 1 1732874547.95748 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.5035181045532227
+5 2 1732874549.7405143 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.78263258934021
+5 3 1732874551.189309 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 1.4484050273895264
+5 4 1732874558.1667583 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.977068901062012
+5 5 1732874559.9417048 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.7745637893676758
+5 6 1732874566.219209 /home/zchenhj/workspace/vBao/sample_queries/q23_19d.sql 6.277130842208862
+5 7 1732874568.7088773 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.489326238632202
+5 8 1732874570.4779456 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.7686028480529785
+5 9 1732874572.233298 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.7549622058868408
+5 10 1732874577.0120726 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.776811361312866
+5 11 1732874579.6674888 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.6550116539001465
+5 12 1732874581.4417906 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.7739179134368896
+5 13 1732874598.6133022 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 17.171131372451782
+5 14 1732874601.9439003 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 3.330193519592285
+5 15 1732874606.723567 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.779278516769409
+5 16 1732874620.3154922 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.591544389724731
+5 17 1732874624.7875803 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.471705436706543
+5 18 1732874626.5572872 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.769327163696289
+5 19 1732874630.6914182 /home/zchenhj/workspace/vBao/sample_queries/q15_18a.sql 4.133749008178711
+5 20 1732874637.3530731 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.661267042160034
+5 21 1732874639.8569515 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.503490686416626
+5 22 1732874642.768172 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.910738468170166
+5 23 1732874655.8627615 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 13.094207525253296
+5 24 1732874667.3386784 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 11.475528717041016
+Initial input channels: 12
+Epoch 0 training loss: 0.017489606969758757
+Epoch 15 training loss: 0.0005800165812374817
+Stopped training from convergence condition at epoch 17
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+6 0 1732874752.5650444 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 6.0891947746276855
+6 1 1732874757.7533636 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 5.187909841537476
+6 2 1732874763.9373195 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.183549880981445
+6 3 1732874770.1254432 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.187729597091675
+6 4 1732874773.0377765 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.9119443893432617
+6 5 1732874786.5199192 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 13.481767177581787
+6 6 1732874791.2477117 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.727403879165649
+6 7 1732874798.4125059 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.164405822753906
+6 8 1732874802.994946 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.582049369812012
+6 9 1732874808.1597748 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 5.1641669273376465
+6 10 1732874814.6381123 /home/zchenhj/workspace/vBao/sample_queries/q23_19d.sql 6.477956056594849
+6 11 1732874817.9781663 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 3.339667797088623
+6 12 1732874831.5618157 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.583260774612427
+6 13 1732874837.5804834 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 6.01827597618103
+6 14 1732874839.3494666 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.7685911655426025
+6 15 1732874845.4840832 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.134225368499756
+6 16 1732874847.1685286 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.684056043624878
+6 17 1732874860.7269692 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.558058738708496
+6 18 1732874867.4071589 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.679803133010864
+6 19 1732874869.1768236 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.7692790031433105
+6 20 1732874872.5174606 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 3.3401713371276855
+6 21 1732874877.8788412 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.360975503921509
+6 22 1732874883.0919309 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 5.212693214416504
+6 23 1732874890.3205848 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.228269100189209
+6 24 1732874903.0562818 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 12.735315561294556
+Initial input channels: 12
+Epoch 0 training loss: 0.01257208579071396
+Epoch 15 training loss: 0.0008044557637290355
+Stopped training from convergence condition at epoch 21
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+7 0 1732875006.2229695 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.274349927902222
+7 1 1732875012.8737438 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.650301456451416
+7 2 1732875015.7483978 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8741884231567383
+7 3 1732875018.0038054 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2549386024475098
+7 4 1732875020.6014879 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.5972039699554443
+7 5 1732875021.8530087 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.25107741355896
+7 6 1732875028.4659798 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 6.612502574920654
+7 7 1732875033.1206677 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.6542298793792725
+7 8 1732875034.0285923 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.9071226119995117
+7 9 1732875041.1706657 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.14161229133606
+7 10 1732875042.3411732 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1700665950775146
+7 11 1732875063.171231 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 20.829620361328125
+7 12 1732875064.4672155 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.295541763305664
+7 13 1732875070.644958 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.177285194396973
+7 14 1732875076.80853 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.163085222244263
+7 15 1732875083.9501016 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.1411004066467285
+7 16 1732875089.8803341 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.929759979248047
+7 17 1732875111.6649954 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 21.784173488616943
+7 18 1732875113.9303784 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2648539543151855
+7 19 1732875116.388081 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.4572463035583496
+7 20 1732875122.5484219 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.159878969192505
+7 21 1732875124.6947665 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.145890951156616
+7 22 1732875130.619904 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.924691915512085
+7 23 1732875136.529523 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 5.909165859222412
+7 24 1732875141.218678 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.688683748245239
+Initial input channels: 12
+Epoch 0 training loss: 0.012430078341146069
+Epoch 15 training loss: 0.000748135155641757
+Stopped training from convergence condition at epoch 15
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+8 0 1732875215.5931349 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.152534008026123
+8 1 1732875223.975753 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 8.382147550582886
+8 2 1732875226.8248165 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8486058712005615
+8 3 1732875229.0781994 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2528858184814453
+8 4 1732875235.2468612 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.168208122253418
+8 5 1732875239.5409555 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.2936482429504395
+8 6 1732875244.7404544 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 5.198946714401245
+8 7 1732875246.0799787 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.3387477397918701
+8 8 1732875250.4036887 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.323261737823486
+8 9 1732875272.4268563 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 22.022740840911865
+8 10 1732875279.2629716 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.835842847824097
+8 11 1732875284.396486 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.133061170578003
+8 12 1732875306.4676962 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 22.070762634277344
+8 13 1732875307.802972 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.334843635559082
+8 14 1732875310.0930896 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.2896816730499268
+8 15 1732875316.2897935 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.196261882781982
+8 16 1732875318.4427943 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.1525661945343018
+8 17 1732875319.3875093 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9442858695983887
+8 18 1732875326.058643 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.670706272125244
+8 19 1732875331.6045387 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 5.54545783996582
+8 20 1732875347.854013 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 16.24899435043335
+8 21 1732875369.8354566 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 21.981001615524292
+8 22 1732875374.778825 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.942930698394775
+8 23 1732875379.1020727 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.322793245315552
+8 24 1732875381.544189 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.4416661262512207
+Initial input channels: 12
+Epoch 0 training loss: 0.026777364574673307
+Epoch 15 training loss: 0.00160518854590109
+Epoch 30 training loss: 0.0005409741241437209
+Stopped training from convergence condition at epoch 41
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+9 0 1732875579.997358 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 6.809047222137451
+9 1 1732875588.0864232 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 8.088591575622559
+9 2 1732875592.6938522 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.606994867324829
+9 3 1732875594.0224764 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.32818603515625
+9 4 1732875601.1692896 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.146363258361816
+9 5 1732875608.318511 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.148780822753906
+9 6 1732875612.9284446 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.609203100204468
+9 7 1732875614.1723838 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2434971332550049
+9 8 1732875615.3583834 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.185563087463379
+9 9 1732875622.0488806 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.690057992935181
+9 10 1732875627.1931605 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.143806457519531
+9 11 1732875632.3190062 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.125406980514526
+9 12 1732875633.2230282 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.9035847187042236
+9 13 1732875635.4827356 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2592718601226807
+9 14 1732875655.825065 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 20.341885089874268
+9 15 1732875663.7195394 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 7.8940300941467285
+9 16 1732875665.0353174 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.3153467178344727
+9 17 1732875672.1919096 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.1563215255737305
+9 18 1732875675.4741313 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.2817776203155518
+9 19 1732875678.7506745 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.276115894317627
+9 20 1732875696.6547973 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.90369200706482
+9 21 1732875699.0966525 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.4414162635803223
+9 22 1732875702.382038 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.2849082946777344
+9 23 1732875708.9998832 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.617427825927734
+9 24 1732875713.0558045 /home/zchenhj/workspace/vBao/sample_queries/q15_18a.sql 4.0556511878967285
+Initial input channels: 12
+Epoch 0 training loss: 0.0165252622320956
+Epoch 15 training loss: 0.0007714848663195859
+Stopped training from convergence condition at epoch 19
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+10 0 1732875815.1007752 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 8.20453143119812
+10 1 1732875822.8653789 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 7.764053106307983
+10 2 1732875827.9902482 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.124380826950073
+10 3 1732875829.1727955 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1820495128631592
+10 4 1732875830.5175955 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.3443424701690674
+10 5 1732875839.6604757 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 9.142138242721558
+10 6 1732875845.2158864 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 5.554955244064331
+10 7 1732875847.5179315 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.301589250564575
+10 8 1732875848.6973433 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1789772510528564
+10 9 1732875857.2439945 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 8.546223640441895
+10 10 1732875879.0776641 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 21.833226442337036
+10 11 1732875891.6643023 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 12.586278676986694
+10 12 1732875909.9558966 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 18.29125142097473
+10 13 1732875916.1477778 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.19152569770813
+10 14 1732875917.3217134 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1735036373138428
+10 15 1732875925.801155 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 8.479012727737427
+10 16 1732875938.8666914 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 13.065096616744995
+10 17 1732875941.1493595 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.282238721847534
+10 18 1732875942.3276894 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1778945922851562
+10 19 1732875955.6931646 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 13.365046977996826
+10 20 1732875960.8302717 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.136668682098389
+10 21 1732875967.021239 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.190521717071533
+10 22 1732875975.5438876 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 8.522202730178833
+10 23 1732875987.7006094 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 12.156303644180298
+10 24 1732875993.2720041 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.570910930633545
+Initial input channels: 12
+Epoch 0 training loss: 0.012824835500471048
+Epoch 15 training loss: 0.00060478112388998
+Stopped training from convergence condition at epoch 16
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+11 0 1732876080.749136 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.911641597747803
+11 1 1732876085.9630728 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.21347188949585
+11 2 1732876106.34492 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 20.38139581680298
+11 3 1732876108.5262346 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.180858612060547
+11 4 1732876113.130234 /home/zchenhj/workspace/vBao/sample_queries/q15_18a.sql 4.603245735168457
+11 5 1732876119.9661384 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.835479497909546
+11 6 1732876125.693638 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.727224826812744
+11 7 1732876131.61343 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.91895604133606
+11 8 1732876149.4810576 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.86734366416931
+11 9 1732876152.3122172 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8307037353515625
+11 10 1732876158.2211676 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.908606290817261
+11 11 1732876159.4693987 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2479522228240967
+11 12 1732876181.4599307 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 21.99008870124817
+11 13 1732876188.2838416 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.8234593868255615
+11 14 1732876209.205333 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 20.92106342315674
+11 15 1732876214.3231225 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.117346525192261
+11 16 1732876219.258247 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.934678077697754
+11 17 1732876221.5911136 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3324227333068848
+11 18 1732876223.8428142 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2512714862823486
+11 19 1732876230.4668632 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.6235997676849365
+11 20 1732876233.2792668 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8119781017303467
+11 21 1732876240.4528666 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.173160791397095
+11 22 1732876258.2971194 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.84379291534424
+11 23 1732876263.438296 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.14074182510376
+11 24 1732876266.7214417 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.2827157974243164
+Initial input channels: 12
+Epoch 0 training loss: 0.07210551515639942
+Epoch 15 training loss: 0.0007147678034548149
+Stopped training from convergence condition at epoch 21
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+12 0 1732876392.1862373 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 21.726921558380127
+12 1 1732876397.8867369 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.700226068496704
+12 2 1732876404.5595171 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.672335147857666
+12 3 1732876422.4588716 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.89857506752014
+12 4 1732876425.283527 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8242108821868896
+12 5 1732876443.1253912 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.84141516685486
+12 6 1732876444.2961652 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1703310012817383
+12 7 1732876465.1302056 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 20.833606719970703
+12 8 1732876471.9853024 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.854617595672607
+12 9 1732876477.517961 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.532191038131714
+12 10 1732876480.3153727 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.796978235244751
+12 11 1732876481.5601475 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2443320751190186
+12 12 1732876499.4297786 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.869195461273193
+12 13 1732876500.730063 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.2998530864715576
+12 14 1732876503.1638076 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.433309555053711
+12 15 1732876521.070642 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 17.90640664100647
+12 16 1732876522.313801 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2427303791046143
+12 17 1732876525.5931466 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.278904676437378
+12 18 1732876531.61234 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 6.018758773803711
+12 19 1732876537.2938247 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.681052207946777
+12 20 1732876540.1073716 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.813102960586548
+12 21 1732876546.2649467 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.157128810882568
+12 22 1732876547.4379218 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1725263595581055
+12 23 1732876550.7393906 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.301039218902588
+12 24 1732876557.3202672 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 6.580435752868652
+Initial input channels: 12
+Epoch 0 training loss: 0.009912070200404181
+Epoch 15 training loss: 0.0006937960027379348
+Stopped training from convergence condition at epoch 16
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+13 0 1732876650.421604 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 13.144342422485352
+13 1 1732876651.3625329 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9404687881469727
+13 2 1732876658.002851 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.639558792114258
+13 3 1732876664.7960734 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.792778730392456
+13 4 1732876671.00208 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.205581903457642
+13 5 1732876673.2492042 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2466983795166016
+13 6 1732876679.384076 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.134434700012207
+13 7 1732876680.5655978 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.181091547012329
+13 8 1732876687.3898063 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.823777198791504
+13 9 1732876694.3263707 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.9361326694488525
+13 10 1732876716.1586437 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 21.83183789253235
+13 11 1732876721.8342905 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.675221920013428
+13 12 1732876723.1488285 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.3141038417816162
+13 13 1732876731.4881015 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 8.338825941085815
+13 14 1732876736.4116864 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.923152446746826
+13 15 1732876738.5842824 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.172149896621704
+13 16 1732876760.6035647 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 22.018844604492188
+13 17 1732876768.9069645 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 8.302966594696045
+13 18 1732876772.1811435 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.2737433910369873
+13 19 1732876778.8114533 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.629832029342651
+13 20 1732876779.758206 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9463012218475342
+13 21 1732876801.5848055 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 21.826168060302734
+13 22 1732876823.27795 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 21.69263505935669
+13 23 1732876827.6355963 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.357213020324707
+13 24 1732876828.535551 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.8995256423950195
+Initial input channels: 12
+Epoch 0 training loss: 0.05389690826709409
+Epoch 15 training loss: 0.00047486929297388153
+Stopped training from convergence condition at epoch 24
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+14 0 1732876955.1922314 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 9.870564460754395
+14 1 1732876958.3865244 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.193347454071045
+14 2 1732876963.906349 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.519560813903809
+14 3 1732876969.6293936 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.722609758377075
+14 4 1732876972.4463677 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8165276050567627
+14 5 1732876985.8392591 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 13.392524719238281
+14 6 1732876988.3033888 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.463674545288086
+14 7 1732876994.015102 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 5.7112812995910645
+14 8 1732876998.9742858 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.9587812423706055
+14 9 1732877003.9031262 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.928398132324219
+14 10 1732877006.3573833 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.4537224769592285
+14 11 1732877013.1330357 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.775128602981567
+14 12 1732877019.3039296 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.170379638671875
+14 13 1732877025.9159434 /home/zchenhj/workspace/vBao/sample_queries/q7_7a48.sql 6.6115007400512695
+14 14 1732877030.2579641 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.34150767326355
+14 15 1732877036.1657555 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.907296895980835
+14 16 1732877038.46117 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.294903516769409
+14 17 1732877040.9009748 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.439328193664551
+14 18 1732877046.0456555 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.144223213195801
+14 19 1732877049.3340871 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.287999153137207
+14 20 1732877051.7923625 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 2.45784330368042
+14 21 1732877057.9859738 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.193174362182617
+14 22 1732877060.145126 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.1587183475494385
+14 23 1732877063.3136892 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.1682896614074707
+14 24 1732877065.940709 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.6265854835510254
+Initial input channels: 12
+Epoch 0 training loss: 0.013675089059310098
+Epoch 15 training loss: 0.0006157107718063133
+Stopped training from convergence condition at epoch 26
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+15 0 1732877189.3588731 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.3327248096466064
+15 1 1732877190.6069336 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2477912902832031
+15 2 1732877193.2298305 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.6224558353424072
+15 3 1732877199.1703105 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.940046310424805
+15 4 1732877210.584217 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 11.413632154464722
+15 5 1732877212.8376021 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2529499530792236
+15 6 1732877217.4550364 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.616986036300659
+15 7 1732877218.3982043 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9427108764648438
+15 8 1732877220.6781104 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.2794530391693115
+15 9 1732877227.0762033 /home/zchenhj/workspace/vBao/sample_queries/q23_19d.sql 6.3976593017578125
+15 10 1732877238.4737875 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 11.397147178649902
+15 11 1732877247.0978603 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 8.623639345169067
+15 12 1732877251.415762 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.3174216747283936
+15 13 1732877252.668897 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2526707649230957
+15 14 1732877258.576133 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 5.9067792892456055
+15 15 1732877267.0945492 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 8.517962217330933
+15 16 1732877280.6597989 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.564816951751709
+15 17 1732877283.2753813 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.615156412124634
+15 18 1732877286.11478 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.838963270187378
+15 19 1732877290.7364476 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.6212170124053955
+15 20 1732877297.6709173 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.934035778045654
+15 21 1732877299.9591491 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.2877981662750244
+15 22 1732877305.8547356 /home/zchenhj/workspace/vBao/sample_queries/q17_7a164.sql 5.895151615142822
+15 23 1732877313.7524135 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 7.897236347198486
+15 24 1732877322.3140206 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 8.560869455337524
+Initial input channels: 12
+Epoch 0 training loss: 0.05399980280319518
+Epoch 15 training loss: 0.0006173065650686133
+Stopped training from convergence condition at epoch 18
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+16 0 1732877425.5613353 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.533501386642456
+16 1 1732877428.8563616 /home/zchenhj/workspace/vBao/sample_queries/q34_1a275.sql 3.2945146560668945
+16 2 1732877437.4293478 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 8.571187734603882
+16 3 1732877445.624959 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 8.195204257965088
+16 4 1732877458.659988 /home/zchenhj/workspace/vBao/sample_queries/q38_2a1870.sql 13.03456997871399
+16 5 1732877465.516742 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 6.8562469482421875
+16 6 1732877471.6935875 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.176394701004028
+16 7 1732877473.9328618 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.238877296447754
+16 8 1732877480.1031363 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.169787645339966
+16 9 1732877481.0541902 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9506053924560547
+16 10 1732877486.0379584 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 4.983368396759033
+16 11 1732877499.6225371 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.584177017211914
+16 12 1732877502.4565856 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8336379528045654
+16 13 1732877503.7676718 /home/zchenhj/workspace/vBao/sample_queries/q27_3c.sql 1.3106484413146973
+16 14 1732877515.1456392 /home/zchenhj/workspace/vBao/sample_queries/q39_2a2781.sql 11.377556085586548
+16 15 1732877519.7195976 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.57354474067688
+16 16 1732877526.8633628 /home/zchenhj/workspace/vBao/sample_queries/q9_5a48.sql 7.14337158203125
+16 17 1732877528.2050495 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.34124755859375
+16 18 1732877534.3563533 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.150911092758179
+16 19 1732877539.5043736 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.147550344467163
+16 20 1732877540.8361218 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.3313443660736084
+16 21 1732877554.2357652 /home/zchenhj/workspace/vBao/sample_queries/q37_2a1291.sql 13.399247884750366
+16 22 1732877562.752832 /home/zchenhj/workspace/vBao/sample_queries/q2_8a82.sql 8.516674041748047
+16 23 1732877575.3442495 /home/zchenhj/workspace/vBao/sample_queries/q40_2a8120.sql 12.590628147125244
+16 24 1732877580.3459954 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.001304864883423
+Initial input channels: 12
+Epoch 0 training loss: 0.01389963773511521
+Epoch 15 training loss: 0.0006168685437625916
+Stopped training from convergence condition at epoch 25
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+17 0 1732877705.4413767 /home/zchenhj/workspace/vBao/sample_queries/q5_8a423.sql 5.128241062164307
+17 1 1732877713.5909154 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 8.149123668670654
+17 2 1732877716.204662 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.613302230834961
+17 3 1732877717.3721979 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1670994758605957
+17 4 1732877730.976486 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.603903532028198
+17 5 1732877733.2990005 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3220748901367188
+17 6 1732877741.4098217 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 8.110434770584106
+17 7 1732877742.338284 /home/zchenhj/workspace/vBao/sample_queries/q29_6e.sql 0.9280679225921631
+17 8 1732877744.6548436 /home/zchenhj/workspace/vBao/sample_queries/q33_2a156.sql 2.3161725997924805
+17 9 1732877745.819415 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1641838550567627
+17 10 1732877750.3504486 /home/zchenhj/workspace/vBao/sample_queries/q13_7a121.sql 4.5306432247161865
+17 11 1732877752.0864089 /home/zchenhj/workspace/vBao/sample_queries/q21_2a396.sql 1.7355411052703857
+17 12 1732877753.2602105 /home/zchenhj/workspace/vBao/sample_queries/q20_24b.sql 1.1734087467193604
+17 13 1732877760.0304017 /home/zchenhj/workspace/vBao/sample_queries/q22_8a27.sql 6.769805431365967
+17 14 1732877765.79875 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.767953157424927
+17 15 1732877770.4526267 /home/zchenhj/workspace/vBao/sample_queries/q15_18a.sql 4.653432369232178
+17 16 1732877784.0361602 /home/zchenhj/workspace/vBao/sample_queries/q19_2a471.sql 13.583049297332764
+17 17 1732877791.9214995 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 7.884923458099365
+17 18 1732877799.829571 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 7.9076855182647705
+17 19 1732877804.4311092 /home/zchenhj/workspace/vBao/sample_queries/q12_17a.sql 4.601099967956543
+17 20 1732877809.394239 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.96266770362854
+17 21 1732877815.1725256 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.777885913848877
+17 22 1732877822.1200495 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.946470737457275
+17 23 1732877823.3594255 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2389726638793945
+17 24 1732877830.2844155 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.924594879150391
+Initial input channels: 12
+Epoch 0 training loss: 0.055860863434365735
+Epoch 15 training loss: 0.0004360744134978852
+Stopped training from convergence condition at epoch 22
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+18 0 1732877947.3871973 /home/zchenhj/workspace/vBao/sample_queries/q6_16b.sql 5.893512487411499
+18 1 1732877949.545206 /home/zchenhj/workspace/vBao/sample_queries/q31_2a39.sql 2.157592296600342
+18 2 1732877958.2693214 /home/zchenhj/workspace/vBao/sample_queries/q36_7a136.sql 8.7237069606781
+18 3 1732877961.1267455 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.856971025466919
+18 4 1732877966.8003817 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 5.673213720321655
+18 5 1732877967.7290413 /home/zchenhj/workspace/vBao/sample_queries/q24_32a.sql 0.9282028675079346
+18 6 1732877971.002642 /home/zchenhj/workspace/vBao/sample_queries/q10_2a265.sql 3.2732086181640625
+18 7 1732877977.163288 /home/zchenhj/workspace/vBao/sample_queries/q23_19d.sql 6.160242319107056
+18 8 1732877982.8848863 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 5.721206903457642
+18 9 1732877985.750357 /home/zchenhj/workspace/vBao/sample_queries/q4_8a122.sql 2.8650565147399902
+18 10 1732877991.9114618 /home/zchenhj/workspace/vBao/sample_queries/q8_6a505.sql 6.160690069198608
+18 11 1732877998.5206928 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.608834266662598
+18 12 1732878004.2264194 /home/zchenhj/workspace/vBao/sample_queries/q3_7a99.sql 5.705317258834839
+18 13 1732878009.4498537 /home/zchenhj/workspace/vBao/sample_queries/q30_18c.sql 5.2230141162872314
+18 14 1732878010.776439 /home/zchenhj/workspace/vBao/sample_queries/q32_2a493.sql 1.326178789138794
+18 15 1732878012.0222578 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.2454290390014648
+18 16 1732878013.258036 /home/zchenhj/workspace/vBao/sample_queries/q18_7a103.sql 1.235377550125122
+18 17 1732878019.4482353 /home/zchenhj/workspace/vBao/sample_queries/q26_2a274.sql 6.189810276031494
+18 18 1732878024.4243014 /home/zchenhj/workspace/vBao/sample_queries/q11_17e.sql 4.975675344467163
+18 19 1732878030.586749 /home/zchenhj/workspace/vBao/sample_queries/q23_19d.sql 6.162047624588013
+18 20 1732878035.1602821 /home/zchenhj/workspace/vBao/sample_queries/q35_1a1508.sql 4.573141574859619
+18 21 1732878040.0867958 /home/zchenhj/workspace/vBao/sample_queries/q25_13d.sql 4.925891160964966
+18 22 1732878042.3381722 /home/zchenhj/workspace/vBao/sample_queries/q16_26c.sql 2.2509801387786865
+18 23 1732878044.9437492 /home/zchenhj/workspace/vBao/sample_queries/q28_13a.sql 2.6051604747772217
+18 24 1732878052.8514438 /home/zchenhj/workspace/vBao/sample_queries/q14_6a349.sql 7.90730094909668

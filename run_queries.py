@@ -13,11 +13,40 @@ USE_BAO = True
 PG_CONNECTION_STR = "dbname=vec_imdb user=zchenhj host=localhost port=5434 password=chen181412"
 CACHE_DIR = "/home/zchenhj/workspace/vBao/tmp/temp_cache.json"
 
+cardinality_mapper = {
+    "aka_title": 361472,
+    "char_name": 3140339,
+    "company_name": 234997,
+    "keyword": 134170,
+    "title": 2528312,
+    "person_info": 2963664
+}
+
+
+# aka_title	title	vec_title	361,472
+# char_name	name	vec_name	3,140,339
+# company_name	name	vec_name	234,997
+# keyword	keyword	vec_keyword	134,170
+# title	title	vec_title	2,528,312
+# person_info	info	vec_info	2,963,664
+
+
+
 # https://stackoverflow.com/questions/312443/
 def chunks(lst, n):
     """Yield successive n-sized chunks from lst."""
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
+        
+
+def extract_table_name(sql_query):
+    # Define the regular expression pattern to capture the table name
+    pattern = r"vector_k_nearest_neighbor\(\s*\([^)]*\),\s*'([^']*)',"
+    match = re.search(pattern, sql_query)
+    
+    if match:
+        return match.group(1)
+    return False
 
 
 def run_query(sql, bao_select=False, bao_reward=False):
@@ -42,25 +71,24 @@ def run_query(sql, bao_select=False, bao_reward=False):
     return stop - start
 
 
-# def estimate_nns_cost(k, num_vectors=140000, dim=1024):
-#     distance_computation_cost = dim * num_vectors * 1e-7  # Cost of distance computations
-#     sorting_cost = num_vectors * np.log2(num_vectors) * 1e-8  # Cost of sorting
-#     top_k_selection_cost = k * 1e-6  # Cost of selecting top-k results
-#     total_cost = distance_computation_cost + sorting_cost + top_k_selection_cost
-#     return total_cost * 1000
-
 def query_encode_extraction(query, cache_file=CACHE_DIR):
     output = dict()
     if "vector_k_nearest_neighbor" in query:
         pattern = r"vector_k_nearest_neighbor\(\s*\(\s*SELECT.*?\),.*?,.*?,\s*(\d+)\s*\)"
         match = re.search(pattern, query, re.DOTALL)
+        
         if match:
-            topk = int(int(match.group(1)) / 10000)
+            topk = int(match.group(1))
             output['topk'] = f"{topk}"
+        
+        # table_name = extract_table_name(query)
+        # assert table_name in cardinality_mapper, f"Table {table_name} not found in cardinality mapper"
+        
+        # temp = int(output['topk']) / int(cardinality_mapper[table_name])
+        # output['topk'] = f"{temp:.4f}"
+        
     else:
         output['topk'] = "0"
-
-    # output['knn_cost'] = estimate_nns_cost(int(output['topk']))
 
     os.remove(cache_file) if os.path.exists(cache_file) else None
     with open(cache_file, "w") as f:

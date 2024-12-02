@@ -106,16 +106,16 @@ class BaoJSONHandler(JSONTCPHandler):
             self.__messages = self.__messages[1:]
             
             if message_type == "query":
-                print('=== Query Mode ===')
-                print(self.__messages)
-                print('=== Query Mode Ends ===')
+                # print('=== Query Mode ===')
+                # print(self.__messages)
+                # print('=== Query Mode Ends ===')
                 result = self.server.bao_model.select_plan(self.__messages)
                 self.request.sendall(struct.pack("I", result))
                 self.request.close()
             elif message_type == "predict":
-                print('=== Predict Mode ===')
-                print(self.__messages)
-                print('=== Predict Mode Ends ===')
+                # print('=== Predict Mode ===')
+                # print(self.__messages)
+                # print('=== Predict Mode Ends ===')
                 result = self.server.bao_model.predict(self.__messages)
                 self.request.sendall(struct.pack("d", result))
                 self.request.close()

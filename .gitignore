@@ -14,7 +14,6 @@ dataset/imdb_dump
 dataset/fixer
 dataset/imdb_csv
 dataset/imdb_embedding_data
-dataset/vec_imdb_index
 dataset/vectorized_imdb_csv
 
 

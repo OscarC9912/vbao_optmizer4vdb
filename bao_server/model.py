@@ -4,7 +4,6 @@ import torch
 import torch.optim
 import joblib
 import os
-from tqdm import tqdm
 from sklearn import preprocessing
 from sklearn.pipeline import Pipeline
 
@@ -53,6 +52,7 @@ def collate(x):
         trees.append(tree)
         targets.append(target)
 
+    targets = np.array(targets).astype(np.float32)
     targets = torch.tensor(targets)
     return trees, targets
 
@@ -76,7 +76,7 @@ class BaoRegression:
         
     def __log(self, *args):
         if self.__verbose:
-            print(*args, flush=True)
+            print(*args)
 
     def num_items_trained_on(self):
         return self.__n
@@ -152,7 +152,7 @@ class BaoRegression:
         loss_fn = torch.nn.MSELoss()
         
         losses = []
-        for epoch in tqdm(range(100)):
+        for epoch in range(100):
             loss_accum = 0
             for x, y in dataset:
                 if CUDA:

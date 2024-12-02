@@ -6,6 +6,10 @@ LEAF_TYPES = ["Seq Scan", "Index Scan", "Index Only Scan", "Bitmap Index Scan"]
 VECTOR_TYPES = ["Other", "topK"]
 ALL_TYPES = JOIN_TYPES + VECTOR_TYPES + LEAF_TYPES
 
+# JOIN_TYPES = ["Nested Loop", "Hash Join", "Merge Join"]
+# LEAF_TYPES = ["Seq Scan", "Index Scan", "Index Only Scan", "Bitmap Index Scan"]
+# ALL_TYPES = JOIN_TYPES + LEAF_TYPES
+
 
 class TreeBuilderError(Exception):
     def __init__(self, msg):
@@ -24,6 +28,9 @@ class TreeBuilder:
     def __init__(self, stats_extractor, relations):
         self.__stats = stats_extractor
         self.__relations = sorted(relations, key=lambda x: len(x), reverse=True)
+        self.encoding_data = None
+        with open('/home/zchenhj/workspace/vBao/tmp/temp_cache.json', "r") as ffile:
+            self.encoding_data = json.load(ffile)
 
     def __relation_name(self, node):
         if "Relation Name" in node:
@@ -47,31 +54,52 @@ class TreeBuilder:
         assert is_join(node)
         arr = np.zeros(len(ALL_TYPES))
         arr[ALL_TYPES.index(node["Node Type"])] = 1
+        # print('Join:', np.concatenate((arr, self.__stats(node))))
         return np.concatenate((arr, self.__stats(node)))
 
     def __featurize_scan(self, node):
         assert is_scan(node)
         arr = np.zeros(len(ALL_TYPES))
         arr[ALL_TYPES.index(node["Node Type"])] = 1
-        return (np.concatenate((arr, self.__stats(node))),
-                self.__relation_name(node))
+        return (np.concatenate((arr, self.__stats(node))), self.__relation_name(node))
         
     def __featurize_vector(self, node):
         arr = np.zeros(len(ALL_TYPES))
-        arr[ALL_TYPES.index(node["Node Type"])] = 1
-        encoding_data = None
-        with open('/home/zchenhj/workspace/vBao/tmp/temp_cache.json', "r") as ffile:
-            encoding_data = json.load(ffile)
-        assert encoding_data is not None
-        arr[4] = int(encoding_data['topk'])
-        return (np.concatenate((arr, self.__stats(node))), "vector_ops")
-        # return np.concatenate((arr, self.__stats(node)))
+        # arr[ALL_TYPES.index(node["Node Type"])] = 1
+        arr[3] = 1
+        arr[4] = self.encoding_data['topk']
+        stats = self.__stats(node)
+        # return (np.concatenate((arr, stats)), "vector_ops")
+        return np.concatenate((arr, stats))
 
+    # def plan_to_feature_tree(self, plan):
+        
+    #     children = plan["Plans"] if "Plans" in plan else []
+
+    #     if len(children) == 1:
+    #         return self.plan_to_feature_tree(children[0])
+
+    #     if is_join(plan):
+    #         assert len(children) == 2
+    #         my_vec = self.__featurize_join(plan)
+    #         left = self.plan_to_feature_tree(children[0])
+    #         right = self.plan_to_feature_tree(children[1])
+    #         return (my_vec, left, right)
+
+    #     if is_scan(plan):
+    #         assert not children
+    #         return self.__featurize_scan(plan)
+        
+    #     if is_vector(plan):
+    #         assert not children
+    #         return self.__featurize_vector(plan)
+
+    #     raise TreeBuilderError("Node wasn't transparent, a join, or a scan: " + str(plan))
     def plan_to_feature_tree(self, plan):
         
         children = plan["Plans"] if "Plans" in plan else []
 
-        if len(children) == 1:
+        if len(children) == 1 and not is_vector(plan):
             return self.plan_to_feature_tree(children[0])
 
         if is_join(plan):
@@ -86,10 +114,12 @@ class TreeBuilder:
             return self.__featurize_scan(plan)
         
         if is_vector(plan):
-            if not children:
-                return self.__featurize_vector(plan)
-            else:
-                return self.plan_to_feature_tree(children[0])
+            my_vec = self.__featurize_vector(plan)
+            if len(children) == 0:
+                return my_vec
+            if len(children) == 1:
+                son = self.plan_to_feature_tree(children[0])
+                return (my_vec, son)
 
         raise TreeBuilderError("Node wasn't transparent, a join, or a scan: " + str(plan))
 
