@@ -43,7 +43,7 @@ class BaoModel:
         print("Selected index", idx,
               "after", f"{round((stop - start) * 1000)}ms",
               "Predicted reward / PG:", res[idx][0],
-              "/", res[0][0])
+              "/", res[0][0], flush=True)
         return idx
 
     def predict(self, messages):
