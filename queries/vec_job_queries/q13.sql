@@ -4,12 +4,6 @@ movie_info as mi1,
 kind_type as kt,
 info_type as it1,
 info_type as it3,
-vector_k_nearest_neighbor(
-    (SELECT vec_info FROM person_info ORDER BY id LIMIT 1 OFFSET 9863),
-    'person_info',
-    'vec_info',
-    1057119
-) AS vknn,
 info_type as it4,
 movie_info_idx as mii1,
 movie_info_idx as mii2,
@@ -23,7 +17,6 @@ cast_info as ci,
 role_type as rt
 WHERE
 t.id = mi1.movie_id
-AND vknn.id = it4.id
 AND t.id = ci.movie_id
 AND t.id = mii1.movie_id
 AND t.id = mii2.movie_id

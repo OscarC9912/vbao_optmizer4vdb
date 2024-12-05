@@ -10,7 +10,7 @@ import re
 import socket
 
 USE_BAO = False
-PG_CONNECTION_STR = "dbname=vec_imdb user=zchenhj host=localhost port=5434 password=chen181412"
+PG_CONNECTION_STR = "dbname=vec_imdb_cust_cost user=zchenhj host=localhost port=5434 password=chen181412"
 CACHE_DIR = "/home/zchenhj/workspace/vBao/tmp/temp_cache.json"
 
 # https://stackoverflow.com/questions/312443/
@@ -31,7 +31,7 @@ def run_query(sql, bao_select=False, bao_reward=False):
             cur.execute(f"SET enable_bao_rewards TO {bao_reward}")
             cur.execute("SET bao_num_arms TO 5")
             cur.execute("SET statement_timeout TO 300000")
-            cur.execute(q)
+            cur.execute(sql)
             cur.fetchall()
             conn.close()
             break
@@ -40,42 +40,6 @@ def run_query(sql, bao_select=False, bao_reward=False):
             continue
     stop = time()
     return stop - start
-
-
-def estimate_nns_cost(k, num_vectors=140000, dim=1024):
-    distance_computation_cost = dim * num_vectors * 1e-7  # Cost of distance computations
-    sorting_cost = num_vectors * np.log2(num_vectors) * 1e-8  # Cost of sorting
-    top_k_selection_cost = k * 1e-6  # Cost of selecting top-k results
-    total_cost = distance_computation_cost + sorting_cost + top_k_selection_cost
-    return total_cost * 1000
-
-
-def query_encode_extraction(query, cache_file=CACHE_DIR):
-    output = dict()
-    if "vector_k_nearest_neighbor" in query:
-        pattern = r"vector_k_nearest_neighbor\(\s*\(\s*SELECT.*?\),.*?,.*?,\s*(\d+)\s*\)"
-        match = re.search(pattern, query, re.DOTALL)
-        if match:
-            topk = int(match.group(1))
-            output['topk'] = f"{topk}"
-    else:
-        output['topk'] = "0"
-
-    output['knn_cost'] = estimate_nns_cost(int(output['topk']))
-
-    os.remove(cache_file) if os.path.exists(cache_file) else None
-    with open(cache_file, "w") as f:
-        json.dump(output, f)
-
-
-def query_info_transfer(data):
-    server_address = ('localhost', 9381)
-    try:
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-            sock.connect(server_address)
-            sock.sendall(json.dumps(data).encode('utf-8') + b'\n')
-    except Exception as e:
-        print(f"Error communicating with server: {e}")
         
 
 query_paths = sys.argv[1:]
@@ -94,7 +58,6 @@ pg_chunks, *bao_chunks = list(chunks(query_sequence, 25))
 print("Executing queries using PG optimizer for initial training")
 
 for fp, q in pg_chunks:
-    query_encode_extraction(q)
     pg_time = run_query(q, bao_reward=True)
     print("x", "x", time(), fp, pg_time, "PG", flush=True)
 

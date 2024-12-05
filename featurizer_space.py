@@ -61,7 +61,8 @@ class TreeBuilder:
         # print(np.concatenate((arr, self.__stats(node))), flush=True)
         # print("==== Scan Featurizer =====", flush=True)
         return (np.concatenate((arr, self.__stats(node))), 
-                self.__relation_name(node))
+                self.__relation_name(node)
+            )
         
     def __featurize_vector(self, node):
         arr = np.zeros(len(ALL_TYPES))
@@ -111,14 +112,8 @@ class TreeBuilder:
 
 
 def norm(x, lo, hi):
-    temp = (np.log(x + 1) - lo) / (hi - lo)
-    if temp is np.inf or temp is -np.inf:
-        return 1
-    if temp is None:
-        return 1
-    else:
-        return temp
     # return (np.log(x + 1) - lo) / (hi - lo)
+    return 0
 
 def get_buffer_count_for_leaf(leaf, buffers):
     total = 0
@@ -144,32 +139,6 @@ class StatExtractor:
             else:
                 res.append(norm(inp[f], lo, hi))
         return res
-
-class StatExtractor:
-    def __init__(self, fields, mins, maxs):
-        self.__fields = fields
-        self.__mins = mins
-        self.__maxs = maxs
-        # print(f"Fields: {self.__fields}, Mins: {self.__mins}, Maxs: {self.__maxs}", flush=True)
-
-    def __call__(self, inp):
-        res = []
-        for f, lo, hi in zip(self.__fields, self.__mins, self.__maxs):
-            # print(f"Processing field: {f}, min: {lo}, max: {hi}", flush=True)
-            if f not in inp:
-                # print(f"Field {f} not in input, appending 0", flush=True)
-                res.append(0)
-            else:
-                normalized_value = norm(inp[f], lo, hi)
-                # print(f"Field {f} in input, inp_val: {inp} , value: {inp[f]}, normalized value: {normalized_value}", flush=True)
-                res.append(normalized_value)
-        
-        # print(f"Resulting list: {res}", flush=True)
-        res[0] = 1
-        # print(f"Resulting list: {res}", flush=True)
-        return res
-
-
 
 def get_plan_stats(data):
     costs = []
@@ -205,21 +174,12 @@ def get_plan_stats(data):
     bufs_max = np.max(bufs) if len(bufs) != 0 else 0
 
     if len(bufs) != 0:
-        # print("Study other function ...", flush=True)
-        # print(["Buffers", "Total Cost", "Plan Rows"], flush=True)
-        # print([bufs_min, costs_min, rows_min], flush=True)
-        # print([bufs_max, costs_max, rows_max], flush=True)  
         return StatExtractor(
             ["Buffers", "Total Cost", "Plan Rows"],
             [bufs_min, costs_min, rows_min],
             [bufs_max, costs_max, rows_max]
         )
     else:
-        
-        # print(["Total Cost", "Plan Rows"], flush=True)
-        # print([costs_min, rows_min], flush=True)
-        # print([costs_max, rows_max], flush=True)
-        
         return StatExtractor(
             ["Total Cost", "Plan Rows"],
             [costs_min, rows_min],

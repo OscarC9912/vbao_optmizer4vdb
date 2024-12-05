@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore")
+
 import socketserver
 import json
 import struct
@@ -12,6 +15,7 @@ import math
 import reg_blocker
 from constants import (PG_OPTIMIZER_INDEX, DEFAULT_MODEL_PATH,
                        OLD_MODEL_PATH, TMP_MODEL_PATH)
+
 
 def add_buffer_info_to_plans(buffer_info, plans):
     for p in plans:
@@ -64,9 +68,9 @@ class BaoModel:
                     self.__current_model,
                     new_model):
                 self.__current_model = new_model
-                print("Accepted new model.")
+                print("Accepted new model.", flush=True)
             else:
-                print("Rejecting load of new model due to regresison profile.")
+                print("Rejecting load of new model due to regresison profile.", flush=True)
                 
         except Exception as e:
             print("Failed to load Bao model from", fp,
@@ -106,9 +110,9 @@ class BaoJSONHandler(JSONTCPHandler):
             self.__messages = self.__messages[1:]
             
             if message_type == "query":
-                # print('=== Query Mode ===')
-                # print(self.__messages)
-                # print('=== Query Mode Ends ===')
+                # print('=== Query Mode ===', flush=True)
+                # print(self.__messages, flush=True)
+                # print('=== Query Mode Ends ===', flush=True)
                 result = self.server.bao_model.select_plan(self.__messages)
                 self.request.sendall(struct.pack("I", result))
                 self.request.close()
@@ -139,7 +143,7 @@ def start_server(listen_on, port):
     model = BaoModel()
 
     if os.path.exists(DEFAULT_MODEL_PATH):
-        print("Loading existing model")
+        print("Loading existing model", flush=True)
         model.load_model(DEFAULT_MODEL_PATH)
     
     socketserver.TCPServer.allow_reuse_address = True

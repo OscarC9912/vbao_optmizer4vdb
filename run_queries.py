@@ -10,7 +10,7 @@ import re
 import socket
 
 USE_BAO = True
-PG_CONNECTION_STR = "dbname=vec_imdb user=zchenhj host=localhost port=5434 password=chen181412"
+PG_CONNECTION_STR = "dbname=vec_imdb_cust_cost user=zchenhj host=localhost port=5434 password=chen181412"
 CACHE_DIR = "/home/zchenhj/workspace/vBao/tmp/temp_cache.json"
 
 cardinality_mapper = {
@@ -60,7 +60,7 @@ def run_query(sql, bao_select=False, bao_reward=False):
             cur.execute(f"SET enable_bao_rewards TO {bao_reward}")
             cur.execute("SET bao_num_arms TO 5")
             cur.execute("SET statement_timeout TO 300000")
-            cur.execute(q)
+            cur.execute(sql)
             cur.fetchall()
             conn.close()
             break
@@ -81,16 +81,18 @@ def query_encode_extraction(query, cache_file=CACHE_DIR):
             topk = int(match.group(1))
             output['topk'] = f"{topk}"
         
-        # table_name = extract_table_name(query)
-        # assert table_name in cardinality_mapper, f"Table {table_name} not found in cardinality mapper"
-        
-        # temp = int(output['topk']) / int(cardinality_mapper[table_name])
-        # output['topk'] = f"{temp:.4f}"
-        
+        table_name = extract_table_name(query)
+        assert table_name in cardinality_mapper, f"Table {table_name} not found in cardinality mapper"
+
+        temp = int(output['topk']) / int(cardinality_mapper[table_name])
+        output['topk_relative'] = f"{temp:.4f}"
+            
     else:
         output['topk'] = "0"
+        output['topk_relative'] = "0"
 
     os.remove(cache_file) if os.path.exists(cache_file) else None
+    
     with open(cache_file, "w") as f:
         json.dump(output, f)
 
@@ -122,7 +124,7 @@ print("Executing queries using PG optimizer for initial training")
 
 for fp, q in pg_chunks:
     query_encode_extraction(q)
-    pg_time = run_query(q, bao_reward=True)
+    pg_time = run_query(q, bao_reward=USE_BAO)
     print("x", "x", time(), fp, pg_time, "PG", flush=True)
 
 for c_idx, chunk in enumerate(bao_chunks):

@@ -45,13 +45,24 @@ def _flatten(root, transformer, left_child, right_child):
     recurse(root)
 
     try:
+        # print(f"=== {accum[0].shape} ===", flush=True)
+        # print(f"=== {[np.zeros(accum[0].shape)]} ===", flush=True)  
+        # print(f"=== Before {accum} ===", flush=True)
         accum = [np.zeros(accum[0].shape)] + accum
+        # print(f"=== After {accum} ===", flush=True)
     except:
         raise TreeConvolutionError(
             "Output of transformer must have a .shape (e.g., numpy array)"
         )
     
-    return np.array(accum)
+    final_accum = []
+    for element in accum:
+        if not isinstance(element, float):
+            final_accum.append(element)
+        else:
+            final_accum.append(np.zeros(accum[0].shape))
+    
+    return np.array(final_accum)
 
 def _preorder_indexes(root, left_child, right_child, idx=1):
     """ transforms a tree into a tree of preorder indexes """
@@ -153,5 +164,3 @@ def prepare_trees(trees, transformer, left_child, right_child, cuda=False):
         indexes = indexes.cuda()
 
     return (flat_trees, indexes)
-                    
-

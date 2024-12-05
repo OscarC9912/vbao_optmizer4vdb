@@ -4,7 +4,7 @@ import psycopg2
 from tqdm import tqdm
 from time import time, sleep
 
-PG_CONNECTION_STR = "dbname=vec_imdb user=zchenhj host=localhost port=5434 password=chen181412"
+PG_CONNECTION_STR = "dbname=imdb user=zchenhj host=localhost port=5434 password=chen181412"
 
 
 def hint_generate():
@@ -110,8 +110,8 @@ def main(queries_dir, output_dir):
         
 if __name__ == '__main__':
     
-    queries = '/home/zchenhj/workspace/vBao/vec_job_queries'
-    output_dir = '/home/zchenhj/workspace/vBao/statistics/benchmark_vec_imdb.json'
+    queries = '/home/zchenhj/workspace/vBao/queries/sample_queries'
+    output_dir = '/home/zchenhj/workspace/vBao/statistics/benchmark_imdb.json'
     main(queries, output_dir)
         
         

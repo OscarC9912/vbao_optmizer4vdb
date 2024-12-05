@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 # Database connection parameters
 DB_PARAMS = {
-    'dbname': 'vec_imdb',
+    'dbname': 'vec_imdb_cust_cost',
     'user': 'zchenhj',
     'password': 'chen181412',
     'host': 'localhost',
@@ -18,13 +18,9 @@ csv_folder = '/home/zchenhj/workspace/vBao/dataset/vectorized_imdb_csv'
 conn = psycopg2.connect(**DB_PARAMS)
 cursor = conn.cursor()
 
-todo = ['title.csv']
-# todo = ['char_name.csv']
-# todo = ['company_name.csv']
-
 # Iterate through all CSV files in the folder
 for file_name in tqdm(os.listdir(csv_folder)):
-    if file_name.endswith('.csv') and file_name in todo:
+    if file_name.endswith('.csv'):
         table_name = file_name.split('.')[0]  # Extract table name from file name
         file_path = os.path.join(csv_folder, file_name)
         

@@ -4,9 +4,17 @@ movie_info as mi1,
 kind_type as kt,
 info_type as it1,
 info_type as it3,
+vector_k_nearest_neighbor(
+    (SELECT vec_info FROM person_info ORDER BY id LIMIT 1 OFFSET 9863),
+    'person_info',
+    'vec_info',
+    1057119
+) AS vknn,
 info_type as it4,
 movie_info_idx as mii1,
 movie_info_idx as mii2,
+movie_keyword as mk,
+keyword as k,
 aka_name as an,
 name as n,
 info_type as it5,
@@ -15,20 +23,21 @@ cast_info as ci,
 role_type as rt
 WHERE
 t.id = mi1.movie_id
+AND vknn.id = it4.id
 AND t.id = ci.movie_id
 AND t.id = mii1.movie_id
 AND t.id = mii2.movie_id
-AND mii2.movie_id = mii1.movie_id
-AND mi1.movie_id = mii1.movie_id
+AND t.id = mk.movie_id
+AND mk.keyword_id = k.id
 AND mi1.info_type_id = it1.id
 AND mii1.info_type_id = it3.id
 AND mii2.info_type_id = it4.id
 AND t.kind_id = kt.id
-AND (kt.kind IN ('episode','movie'))
-AND (t.production_year <= 2015)
+AND (kt.kind IN ('episode'))
+AND (t.production_year <= 1975)
 AND (t.production_year >= 1925)
-AND (mi1.info IN ('Black and White'))
-AND (it1.id IN ('2'))
+AND (mi1.info IN ('Mono'))
+AND (it1.id IN ('13','6','8'))
 AND it3.id = '100'
 AND it4.id = '101'
 AND (mii2.info ~ '^(?:[1-9]\d*|0)?(?:\.\d+)?$' AND mii2.info::float <= 7.0)
@@ -40,11 +49,9 @@ AND ci.person_id = pi1.person_id
 AND it5.id = pi1.info_type_id
 AND n.id = pi1.person_id
 AND n.id = an.person_id
-AND ci.person_id = an.person_id
-AND an.person_id = pi1.person_id
 AND rt.id = ci.role_id
-AND (n.gender in ('f') OR n.gender IS NULL)
-AND (n.name_pcode_nf in ('A5136','B4532','C6435','H4524','J2451','J6362','L2525','M6415','S4125','W5245'))
-AND (ci.note in ('(writer)') OR ci.note IS NULL)
-AND (rt.role in ('actress','cinematographer','writer'))
-AND (it5.id in ('26'))
+AND (n.gender in ('m') OR n.gender IS NULL)
+AND (n.name_pcode_nf in ('A4163','B6563','D1316','F6521','F6523','F6524','J5216','J5262','P3616'))
+AND (ci.note IS NULL)
+AND (rt.role in ('actor'))
+AND (it5.id in ('32'))
